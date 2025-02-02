@@ -4,7 +4,6 @@
 
 **Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.**
 
-
 So, Machine Learning is a subset of artificial Intelligence where computers learns from data and improve their perfromance on a task without being explicitly programmed.
 
 Data is really important for machine learning because machine learning relies on data to train models and learn patterns.
@@ -28,7 +27,7 @@ There are basically three main types of Machine Learning
 - Unsupervised Learning
 - Reinforcement Learning
 
-Additionally, there is a more specific category called **semi-supervised** learning, which combines elements of both **supervised** and **unsupervised** learning.
+Moreover, there is a more specific category called **semi-supervised** learning, which combines elements of both **supervised** and **unsupervised** learning.
 
 ## Artificial Intelligence vs Machine Learning
 
