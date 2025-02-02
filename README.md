@@ -35,6 +35,12 @@ Artificial Intelligence and Machine Learning are technical buzzword now.
 
 But, people often confused about two. They think they are all the same but they are not. There is some difference between artificial intelligence and machine learning.
 
+#### Artificial Intelligence
+
+Artificial Intelligence is the theory and development of computer systems that able to perform tasks that normally requires human intelligence, such as visual perception, speech recognition, decision making and translation between languages.
+
+#### Machine Learning
+
 Machine Learning is a subset of artificial intelligence.
 
 As Arthur Samuels Describes **Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.**
@@ -46,3 +52,13 @@ Then let's see now, what's not machine learning to better understand the differe
 - Machine learning is not based on logic or rule it is based on statistics
 - Machine learning has not understanding of the world
 - Machine learning is not study of neuro science
+
+### Essential mathematics for ML
+
+The important mathematics for machine learning. This list is sorted by the importance rate. first item on the list is most important
+
+- Linear Algebra
+- Multivariative Calculus
+- Probability Theory
+- Discrete Mathematics
+- Statistics
