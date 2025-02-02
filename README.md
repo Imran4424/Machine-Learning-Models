@@ -90,3 +90,9 @@ Free Resources where we can learn
 #### Probability Theory
 
 Free Resources where we can learn
+
+- [The Bright Side of Mathematics](https://www.youtube.com/playlist?list=PLBh2i93oe2qswFOC98oSFc37-0f4S3D4z)
+- [Khan Academy Videos](https://www.youtube.com/playlist?list=PLC58778F28211FA19)
+- [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
+
+#### Discrete Mathematics
