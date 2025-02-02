@@ -96,3 +96,9 @@ Free Resources where we can learn
 - [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP60hI9ATjSFgLZpbNJ7myAg6)
 
 #### Discrete Mathematics
+
+Free Resources where we can learn
+
+#### Statistics
+
+Free Resources where we can learn
