@@ -53,7 +53,7 @@ Then let's see now, what's not machine learning to better understand the differe
 - Machine learning has not understanding of the world
 - Machine learning is not study of neuro science
 
-### Essential mathematics for ML
+## Essential mathematics for ML
 
 The important mathematics for machine learning. This list is sorted by the importance rate. first item on the list is most important
 
@@ -62,3 +62,31 @@ The important mathematics for machine learning. This list is sorted by the impor
 - Probability Theory
 - Discrete Mathematics
 - Statistics
+
+#### Linear Algebra
+
+Free Resoures where we can learn
+
+- [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+- [Gilbert Strang Lectures](https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D)
+- [Khan Academy Videos](https://www.youtube.com/playlist?list=PLFD0EB975BA0CC1E0)
+- [Khan Academy Website](https://www.khanacademy.org/math/linear-algebra)
+- [Coding the Matrix by Philip Klein](https://cs.brown.edu/video/channels/coding-matrix-fall-2014/?page=2)
+
+Paid Linear Algebra resources
+
+- [Become a Linear Algebra Master](https://www.udemy.com/course/linear-algebra-course/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-ifogBxRxVqsHhdZOvMPLIQ&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads&couponCode=LETSLEARNNOW)
+- [Complete linear algebra: theory and implementation in code](https://www.udemy.com/course/linear-algebra-theory-and-implementation/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-SZqFw5YMCKDMjE0N_HP7VQ&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads&couponCode=LETSLEARNNOW)
+
+#### Multivariative Calculus
+
+Free Resources where we can learn
+
+- [Khan Academy Videos](https://www.youtube.com/playlist?list=PLSQl0a2vh4HC5feHa6Rc5c0wbRTx56nF7)
+- [Khan Academy Website](https://www.khanacademy.org/math/multivariable-calculus)
+- [MIT OpenCourseWare](https://www.youtube.com/playlist?list=PL4C4C8A7D06566F38)
+- [The Bright Side of Mathematics](https://www.youtube.com/playlist?list=PLBh2i93oe2qv4G2AyarkbR3OKBml0hXEg)
+
+#### Probability Theory
+
+Free Resources where we can learn
