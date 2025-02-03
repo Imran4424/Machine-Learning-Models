@@ -102,3 +102,5 @@ Free Resources where we can learn
 #### Statistics
 
 Free Resources where we can learn
+
+# Supervised Learning
