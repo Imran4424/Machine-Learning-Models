@@ -108,4 +108,10 @@ Free Resources where we can learn
 
 Free Resources where we can learn
 
+- [Khan Academy Videos](https://www.youtube.com/playlist?list=PL1328115D3D8A2566)
+- [Khan Academy](https://www.khanacademy.org/math/statistics-probability)
+- [The Organic Chemistry Tutor](https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV)
+- [CrashCourse](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNM_Y-bUAhblSAdWRnmBUcr)
+- [Kimberly Brehm](https://www.youtube.com/playlist?list=PLl-gb0E4MII1dkfGxmdt8YA0Dgabdvdmq)
+
 # Supervised Learning
