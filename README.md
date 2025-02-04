@@ -72,6 +72,7 @@ Free Resoures where we can learn
 - [Khan Academy Videos](https://www.youtube.com/playlist?list=PLFD0EB975BA0CC1E0)
 - [Khan Academy Website](https://www.khanacademy.org/math/linear-algebra)
 - [Coding the Matrix by Philip Klein](https://cs.brown.edu/video/channels/coding-matrix-fall-2014/?page=2)
+- [TrevTutor](https://www.youtube.com/playlist?list=PLDDGPdw7e6AjJacaEe9awozSaOou-NIx_)
 
 Paid Linear Algebra resources
 
@@ -98,6 +99,10 @@ Free Resources where we can learn
 #### Discrete Mathematics
 
 Free Resources where we can learn
+
+- [Kimberly Brehm](https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz)
+- [TrevTutor](https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz)
+- [CodeAcademy](https://www.codecademy.com/learn/discrete-math)
 
 #### Statistics
 
