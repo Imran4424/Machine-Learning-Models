@@ -12,7 +12,7 @@ Data is really important for machine learning because machine learning relies on
 
 Arthur Samuels Describes **Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.**
 
-#### Machine Learnin Examples
+#### Machine Learning Examples
 
 - Classifying emails as spam or not spam
 - Google Search Engine
@@ -115,3 +115,21 @@ Free Resources where we can learn
 - [Kimberly Brehm](https://www.youtube.com/playlist?list=PLl-gb0E4MII1dkfGxmdt8YA0Dgabdvdmq)
 
 # Supervised Learning
+
+Supervised Machine Learning Models
+
+#### Regresstion
+
+- Linear Regresstion
+- Mutiple Linear Regresstion
+- Polynomial Regresstion
+- Decision Tree
+- Random Forest
+- Neural Network
+
+#### Classification
+
+- Logistic Regresstion
+- Support Vector Machine
+- Naive Bayes
+-
