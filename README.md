@@ -138,6 +138,15 @@ Supervised Machine Learning Models
 
 Unsupervised Machine Learning Models
 
-- fir
-- second
-- third
+#### Clustering
+
+- K-Means
+- Hierarchical
+- Mean Shift
+- Density-based
+
+#### Dimensionality Reduction
+
+- Feature Elimination
+- Feature Extraction
+- Principal Component Analysis (PCA)
