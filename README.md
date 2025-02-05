@@ -132,4 +132,12 @@ Supervised Machine Learning Models
 - Logistic Regresstion
 - Support Vector Machine
 - Naive Bayes
--
+- Decision Tree, Random Forest, Neural Network
+
+# Unsupervised Learning
+
+Unsupervised Machine Learning Models
+
+- fir
+- second
+- third
