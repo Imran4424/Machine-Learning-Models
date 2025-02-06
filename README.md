@@ -128,7 +128,7 @@ In supervised learning datasets can be divided into two main parts
 
 #### Training Dataset
 
-Training dataset is also called labelled dataset which used to train a model
+Training dataset is also called labelled dataset which is used to train a model. Through training a model will learn from extracted features of the dataset and the label
 
 Supervised Machine Learning Models
 
