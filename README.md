@@ -133,6 +133,9 @@ And from the label the model will learn about the expected prediction based of t
 
 #### Testing Dataset
 
+Testing dataset is also known as unlabelled data which contain all the features of training dataset but not the expected prediction label. Testing datasets are used
+to determine the performance accuracy of a trained model.
+
 Supervised Machine Learning Models
 
 #### Regresstion
