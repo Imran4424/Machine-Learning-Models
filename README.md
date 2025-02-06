@@ -4,7 +4,7 @@
 
 **Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.**
 
-So, Machine Learning is a subset of artificial Intelligence where computers learns from data and improve their perfromance on a task without being explicitly programmed.
+Machine Learning is a subset of artificial intelligence in which computers learn from data and improve their performance on a task without being explicitly programmed.
 
 Data is really important for machine learning because machine learning relies on data to train models and learn patterns.
 
