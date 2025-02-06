@@ -142,7 +142,10 @@ Usually, we need to divide the whole dataset as Training and testing dataset. Th
 - 90% (Training), 10% (Testing) - When the dataset size is small
 - 70% (Training), 30% (Testing) - When the dataset size is huge
 
-Supervised Machine Learning Models
+Supervised Machine Learning Models are broadly categorized into two subcategories.
+
+- Regresstion
+- Classification
 
 #### Regresstion
 
