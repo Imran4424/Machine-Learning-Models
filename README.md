@@ -136,6 +136,12 @@ And from the label the model will learn about the expected prediction based of t
 Testing dataset is also known as unlabelled data which contain all the features of training dataset but not the expected prediction label. Testing datasets are used
 to determine the performance accuracy of a trained model.
 
+Usually, we need to divide the whole dataset as Training and testing dataset. The dividation ratios has three common choices
+
+- 80% (Training), 20% (Testing) - Most popular choice (As far as I know)
+- 90% (Training), 10% (Testing) - When the dataset size is small
+- 70% (Training), 30% (Testing) - When the dataset size is huge
+
 Supervised Machine Learning Models
 
 #### Regresstion
