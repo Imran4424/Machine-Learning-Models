@@ -119,7 +119,16 @@ Free Resources where we can learn
 In supervised learning, when we have a Dataset,
 
 - There will be any number of independent variables which is also called input variables or features
-- A dependent variable which is also output variable or target
+- A dependent variable which is also target or output variable
+
+In supervised learning datasets can be divided into two main parts
+
+1. Training Dataset
+2. Testing Dataset
+
+#### Training Dataset
+
+Training dataset is also called labelled dataset which used to train a model
 
 Supervised Machine Learning Models
 
