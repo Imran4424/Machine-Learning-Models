@@ -116,6 +116,11 @@ Free Resources where we can learn
 
 # Supervised Learning
 
+In supervised learning, when we have a Dataset,
+
+- There will be any number of independent variables which is also called input variables or features
+- A dependent variable which is also output variable or target
+
 Supervised Machine Learning Models
 
 #### Regresstion
