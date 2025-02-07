@@ -157,9 +157,14 @@ There are various types of regression model available based on the number of pre
 - Linear Regresstion
 - Mutiple Linear Regresstion
 - Polynomial Regresstion
+- Ridge and Lasso Regression
 - Decision Tree
 - Random Forest
 - Neural Network
+
+### Linear Regression
+
+Linear regression sometimes called as mother of all machine learning models. Linear regression model try to determine the linear relationship between the independent and dependent variables.
 
 ## Classification
 
