@@ -175,6 +175,11 @@ $$
 $$
 
 Where,
+y = Dependent variable (Target variable which we are trying to predict)
+x = Independent variable (features / input variable)
+$\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+$\beta_1$ = Linear Regresstion coefficient
+$\epsilon$ = Error of estimation (difference between observed income and actual income)
 
 ## Classification
 
