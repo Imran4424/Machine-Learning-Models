@@ -179,7 +179,16 @@ y = Dependent variable (Target variable which we are trying to predict)
 x = Independent variable (features / input variable)
 $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 $\beta_1$ = Linear Regresstion coefficient
-$\epsilon$ = Error of estimation (difference between observed income and actual income)
+$\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
+
+There are two types of linear regression model based on the number of input variables
+
+- Simple Linear Regression
+- Multiple Linear Regression
+
+#### Simple Linear Regression
+
+#### Multiple Linear Regression
 
 ## Classification
 
