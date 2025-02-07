@@ -155,7 +155,6 @@ Regresstion is a supervised machine learning technique where the goal is to pred
 There are various types of regression model available based on the number of predictor variables and the nature of the relationship between variables:
 
 - Linear Regresstion
-- Mutiple Linear Regresstion
 - Polynomial Regresstion
 - Ridge and Lasso Regression
 - Decision Tree
@@ -218,6 +217,8 @@ $x_i$ = Independent variables (features / input variable)
 $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 $\beta_i$ = Linear Regresstion coefficients of their associated independent variables
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
+
+### Polynomial Regression
 
 ## Classification
 
