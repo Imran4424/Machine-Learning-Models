@@ -37,7 +37,7 @@ But, people are often confused about two. They think they are all the same but t
 
 #### Artificial Intelligence
 
-Artificial Intelligence is the theory and development of computer systems that able to perform tasks that normally requires human intelligence, such as visual perception, speech recognition, decision making and translation between languages.
+Artificial Intelligence is the theory and development of computer systems that are able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
 
 #### Machine Learning
 
@@ -45,7 +45,7 @@ Machine Learning is a subset of artificial intelligence.
 
 As Arthur Samuels Describes **Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.**
 
-As I said, machine learning is a subset of artificial intelligence. So let's say it old school way, Every machine learning project or theories are artificial intelligence but every artificial intelligence theories or projects are not machine learning.
+As I said, machine learning is a subset of artificial intelligence. So let's say it old school way, Every machine learning project or theories are artificial intelligence but every artificial intelligence theory or project is not machine learning.
 
 Then let's see now, what's not machine learning to better understand the difference.
 
@@ -55,7 +55,7 @@ Then let's see now, what's not machine learning to better understand the differe
 
 ## Essential mathematics for ML
 
-The important mathematics for machine learning. This list is sorted by the importance rate. first item on the list is most important
+The important mathematics for machine learning. This list is sorted by the importance rate. The first item on the list is most important
 
 - Linear Algebra
 - Multivariative Calculus
