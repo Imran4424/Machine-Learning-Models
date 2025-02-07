@@ -171,8 +171,10 @@ Linear regression sometimes called as mother of all machine learning models. Lin
 **Mathematical representation of Linear Regression Model**
 
 $$
-y = \beta_0 + \beta_1 x + \epsilon
+\boldsymbol{y = \beta_0 + \beta_1 x + \epsilon}
 $$
+
+Where,
 
 ## Classification
 
