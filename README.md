@@ -164,7 +164,15 @@ There are various types of regression model available based on the number of pre
 
 ### Linear Regression
 
+A Linear regression is a linear appoximation of a casual relationship between two or more variables.
+
 Linear regression sometimes called as mother of all machine learning models. Linear regression model try to determine the linear relationship between the independent and dependent variables. This indicates that, the change in the independent variables will be reflected in the dependent variable proportionally.
+
+**Mathematical representation of Linear Regression Model**
+
+$$
+y = \beta_0 + \beta_1 x + \epsilon
+$$
 
 ## Classification
 
