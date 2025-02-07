@@ -2,9 +2,11 @@
 
 #### According to wikipedia
 
-**Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.**
+**Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms
+that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.**
 
-Machine Learning is a subset of artificial intelligence in which computers learn from data and improve their performance on a task without being explicitly programmed.
+Machine Learning is a subset of artificial intelligence in which computers learn from data and improve their performance on a task without
+being explicitly programmed.
 
 Data is really important for machine learning because machine learning relies on data to train models and learn patterns.
 
@@ -37,7 +39,8 @@ But, people are often confused about two. They think they are all the same but t
 
 #### Artificial Intelligence
 
-Artificial Intelligence is the theory and development of computer systems that are able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
+Artificial Intelligence is the theory and development of computer systems that are able to perform tasks that normally require human intelligence,
+such as visual perception, speech recognition, decision-making, and translation between languages.
 
 #### Machine Learning
 
@@ -45,7 +48,8 @@ Machine Learning is a subset of artificial intelligence.
 
 As Arthur Samuels Describes **Machine Learning is a field of study that gives computers the ability to learn without being explicitly programmed.**
 
-As I said, machine learning is a subset of artificial intelligence. So let's say it old school way, Every machine learning project or theories are artificial intelligence but every artificial intelligence theory or project is not machine learning.
+As I said, machine learning is a subset of artificial intelligence. So let's say it old school way, Every machine learning project or theories are artificial intelligence
+but every artificial intelligence theory or project is not machine learning.
 
 Then let's see now, what's not machine learning to better understand the difference.
 
@@ -128,13 +132,14 @@ In supervised learning datasets can be divided into two main parts
 
 #### Training Dataset
 
-A training dataset is also called a labelled dataset which is used to train a model. During training, the model learns the features extracted from the training dataset.
-From the label, the model will learn about the expected prediction based on the given features of the training dataset.
+A training dataset is also called a labelled dataset which is used to train a model. During training, the model learns the features
+extracted from the training dataset. From the label, the model will learn about the expected prediction based on the given features
+of the training dataset.
 
 #### Testing Dataset
 
-A Testing dataset is also known as unlabelled data which contains all the features of the training dataset but not the expected prediction label.
-Testing datasets are used to determine the performance accuracy of a trained model.
+A Testing dataset is also known as unlabelled data which contains all the features of the training dataset but not the expected
+prediction label. Testing datasets are used to determine the performance accuracy of a trained model.
 
 Usually, we need to divide the whole dataset as a Training and testing dataset. The divination ratios have three common choices
 
@@ -149,7 +154,9 @@ Supervised Machine Learning Models are broadly categorized into two subcategorie
 
 #### Regresstion
 
-Regresstion is a supervised machine learning technique where the goal is to predict a continuous numerical value based on one or more independent features. In order to make predictions, it determines the relationships between variables. In regression, there are two different kinds of variables:
+Regresstion is a supervised machine learning technique where the goal is to predict a continuous numerical value based on one or
+more independent features. In order to make predictions, it determines the relationships between variables. In regression, there
+are two different kinds of variables:
 
 - Independent variables: The features of the subject acting as input variables that influence the prediction
 - Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
