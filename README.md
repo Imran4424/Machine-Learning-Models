@@ -149,6 +149,11 @@ Supervised Machine Learning Models are broadly categorized into two subcategorie
 
 #### Regresstion
 
+Regresstion is a supervised machine learning technique where the goal is to predict a continuous numerical value based on one or more independent features. In order to make predictions, it determines the relationships between variables. In regression, there are two different kinds of variables:
+
+- Independent variables: The features of the subject acting as input variables that influence the prediction
+- Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
+
 - Linear Regresstion
 - Mutiple Linear Regresstion
 - Polynomial Regresstion
