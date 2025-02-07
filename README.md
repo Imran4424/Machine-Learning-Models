@@ -164,7 +164,7 @@ There are various types of regression model available based on the number of pre
 
 ### Linear Regression
 
-Linear regression sometimes called as mother of all machine learning models. Linear regression model try to determine the linear relationship between the independent and dependent variables.
+Linear regression sometimes called as mother of all machine learning models. Linear regression model try to determine the linear relationship between the independent and dependent variables. This indicates that, the change in the independent variables will be reflected in the dependent variable proportionally.
 
 ## Classification
 
