@@ -55,7 +55,7 @@ Then let's see now, what's not machine learning to better understand the differe
 
 ## Essential mathematics for ML
 
-The important mathematics for machine learning. This list is sorted by the importance rate. The first item on the list is most important
+The important mathematics for machine learning. This list is sorted by the importance rate. The first item on the list is the most important
 
 - Linear Algebra
 - Multivariative Calculus
