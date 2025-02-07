@@ -188,6 +188,14 @@ There are two types of linear regression model based on the number of input vari
 
 #### Simple Linear Regression
 
+In simple linear regression model, one independent variable is used as an input for predicting the output the dependent variable of the model
+
+The above shown of linear regression is actually for simple linear regression
+
+$$
+\boldsymbol{y = \beta_0 + \beta_1 x + \epsilon}
+$$
+
 #### Multiple Linear Regression
 
 ## Classification
