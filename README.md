@@ -31,9 +31,9 @@ Moreover, there is a more specific category called **semi-supervised** learning,
 
 ## Artificial Intelligence vs Machine Learning
 
-Artificial Intelligence and Machine Learning are technical buzzword now.
+Artificial Intelligence and Machine Learning are technical buzzwords now.
 
-But, people often confused about two. They think they are all the same but they are not. There is some difference between artificial intelligence and machine learning.
+But, people are often confused about two. They think they are all the same but they are not. There are some differences between artificial intelligence and machine learning.
 
 #### Artificial Intelligence
 
