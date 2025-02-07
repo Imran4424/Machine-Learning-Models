@@ -118,7 +118,7 @@ Free Resources where we can learn
 
 In supervised learning, when we have a Dataset,
 
-- There will be any number of independent variables which is also called input variables or features
+- There will be any number of independent variables which are also called input variables or features
 - A dependent variable which is also target or output variable
 
 In supervised learning datasets can be divided into two main parts
@@ -128,15 +128,15 @@ In supervised learning datasets can be divided into two main parts
 
 #### Training Dataset
 
-Training dataset is also called labelled dataset which is used to train a model. Through training a model will learn from extracted features of the training dataset.
-And from the label the model will learn about the expected prediction based of the given features of the training dataset.
+A training dataset is also called a labelled dataset which is used to train a model. During training, the model learns the features extracted from the training dataset.
+From the label, the model will learn about the expected prediction based on the given features of the training dataset.
 
 #### Testing Dataset
 
-Testing dataset is also known as unlabelled data which contain all the features of training dataset but not the expected prediction label. Testing datasets are used
-to determine the performance accuracy of a trained model.
+A Testing dataset is also known as unlabelled data which contains all the features of the training dataset but not the expected prediction label.
+Testing datasets are used to determine the performance accuracy of a trained model.
 
-Usually, we need to divide the whole dataset as Training and testing dataset. The dividation ratios has three common choices
+Usually, we need to divide the whole dataset as a Training and testing dataset. The divination ratios have three common choices
 
 - 80% (Training), 20% (Testing) - Most popular choice (As far as I know)
 - 90% (Training), 10% (Testing) - When the dataset size is small
