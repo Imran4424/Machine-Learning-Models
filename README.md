@@ -271,10 +271,30 @@ $SS_\epsilon$ = Error Sum of Squares
 The formula of $SS_\epsilon$ is:
 
 $$
-\boldsymbol{SS_\epsilon = }
+\boldsymbol{SS_\epsilon = \displaystyle\sum_{i=1}^{n}(x_i - \bar{x})^2}
+$$
+
+where,
+$x_i$ = individual data points in the dataset.
+$\bar{x}$ = mean(average) of all data points
+
+$\bar{x}$ is calculated as following:
+
+$$
+\boldsymbol{\bar{x} = \frac{1}{n} \displaystyle\sum_{i=1}^{n} x_i}
 $$
 
 We need to run through $BIC_k$ equation for some orders and create a plot **polynomial model order vs BIC**. Then find out the minimum plot from the plot.
+
+#### Polynomial Regression Examples
+
+- Stock market trend prediction
+- Inflation and GDP growth prediction
+- Energy consumtion prediction compared to outdoor environment
+
+### Decision Tree
+
+### Random Forest
 
 ## Classification
 
