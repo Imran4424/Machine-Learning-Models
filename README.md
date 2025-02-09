@@ -252,10 +252,10 @@ $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 $\beta_i$ = Coefficients of their polynomial terms
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
-**When to use Polynomial Regression Model**
+**When to use Polynomial Regression Model?**
 When the relationship between the dependent variable and independent variable is non-linear and we can not use simple and multiple linear regression to fit the data well. Then we can use Polynomial regression model. Best way to find out by ploting x vs y. If the plotted graph shows a parabolic, cubic, or other curved patterns, then the Polynomial Regression Model is a good choice
 
-**Among n-degree order which order should we use for our Polynomial Regression Model**
+**Among n-degree order which order should we use for our Polynomial Regression Model?**
 
 ## Classification
 
