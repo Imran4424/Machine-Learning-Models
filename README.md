@@ -205,7 +205,7 @@ $$
 \boldsymbol{y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon}
 $$
 
-We can also simplified the equation as follwoing
+We can also simplified the equation as following
 
 $$
 \boldsymbol{y = \beta_0 + \displaystyle\sum_{i=1}^{n} \beta_i x_i + \epsilon}
@@ -218,7 +218,35 @@ $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 $\beta_i$ = Linear Regresstion coefficients of their associated independent variables
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
+#### Linear Regression Examples
+
+- Predicting house price or rent based on the house size, house age, distance from main road, where it is located
+- Predicting salary based on the education level, job position, years of experience and so on
+
 ### Polynomial Regression
+
+Polynomial Regression Model is a special case multiple linear regression model where coefficients are all linear but the independent variable x is an nth-degree polynomial.
+
+In Polynomial Regression Model, the relationship between independent(input) variable and dependent(output) variable is not linear. Simple and Multiple Linear Regression models are best fit for straight line. But when the relationships between independent and dependent variables is better represented by a curve, Polynomial Regression Model is a better choice than previously discussed linear regression models.
+
+**Mathematical representation of Polynomial Regression Model**
+
+$$
+\boldsymbol{y = \beta_0 + \beta_1 x^1 + \beta_2 x^2 + \dots + \beta_n x^n + \epsilon}
+$$
+
+We can also simplified the equation as following
+
+$$
+\boldsymbol{y = \beta_0 + \displaystyle\sum_{i=1}^{n} \beta_i x^i + \epsilon}
+$$
+
+Where,
+y = Dependent variable (Target variable which we are trying to predict)
+$x$ = Independent variables (features / input variable)
+$\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+$\beta_i$ = Linear Regresstion coefficients of their associated independent variables
+$\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 ## Classification
 
