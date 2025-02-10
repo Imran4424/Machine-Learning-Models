@@ -294,6 +294,8 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Decision Tree
 
+What is decision tree?
+
 ### Random Forest
 
 ## Classification
