@@ -294,9 +294,9 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Decision Tree
 
-Decision Tree Regression is a non-linear regression model that can handle complex datasets with very complicated patterns. It uses a tree-like model to make predictions, making it both flexible and easy to interpret.
+Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It uses a tree-like model to make predictions, making it flexible and easy to interpret.
 
-Decision
+Decision Tree Regression at the core is a binary tree which predicts continuous values.
 
 ### Random Forest
 
