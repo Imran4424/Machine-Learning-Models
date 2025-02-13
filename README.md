@@ -300,11 +300,14 @@ Decision Tree Regression at the core is a binary tree which predicts continuous 
 
 Where the split gonna happen is determined by the information entropy. For the first split, we look at the whole dataset for information entropy. For the next split, we consider the relevant split portion we are working on and its local entropy for the further split (more like a recursive split operation).
 
+#### Information Entropy
+
 While building the Decision Tree, the below points are to be considered
 
--
-
-#### Information Entropy
+- Features to choose
+- Conditions for splitting (Information Entropy)
+- To know where to stop
+- Pruning
 
 ### Random Forest
 
