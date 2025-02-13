@@ -294,9 +294,11 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Decision Tree
 
-Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It uses a tree-like model to make predictions, making it flexible and easy to interpret.
+Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It makes predictions using a tree-like model, making it flexible and easy to interpret.
 
 Decision Tree Regression at the core is a binary tree which predicts continuous values. This model creates a root node on entire dataset then splits the data into smaller subsets based on decision rules derived from the input features. Each split is made to minimize the error in predicting the target variable.
+
+Where the split gonna happen is determined by the information entropy. For the first split, we look at the whole dataset for information entropy. For the next split, we consider the relevant split portion we are working on and its local entropy for the further split (more like a recursive split operation).
 
 ### Random Forest
 
