@@ -336,6 +336,8 @@ Between two choice in a decision tree if the choices are distributed among two c
 
 #### Information Gain
 
+The Information Gain measures the expected reduction in entropy. Entropy measures impurity in the data and information gain measures reduction in impurity in the data. The feature which has minimum impurity will be considered as the root node.
+
 ### Random Forest
 
 ### Neural Network
