@@ -311,6 +311,8 @@ While building the Decision Tree, the below points are to be considered
 
 ### Random Forest
 
+### Neural Network
+
 ## Classification
 
 - Logistic Regresstion
