@@ -309,6 +309,8 @@ While building the Decision Tree, the below points are to be considered
 
 #### Information Entropy
 
+The provided dataset's disorder or impurity is measured by entropy.
+
 ### Random Forest
 
 ### Neural Network
