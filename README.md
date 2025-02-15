@@ -346,6 +346,12 @@ For a dataset with many features, each feature's information gain is calculated.
 
 The Gini index can also be used for feature selection. The tree chooses the feature that minimizes the Gini impurity index. The higher value of the Gini Index indicates the impurity is higher. Both the Gini Index and Gini Impurity are used interchangeably. The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, it gives the results of “success” or “failure”.
 
+The Gini Index can be calculated by following formula
+
+$$
+\boldsymbol{Gini = -\displaystyle\sum_{i=1}^{c}P_i log_2 P_i}
+$$
+
 ### Random Forest
 
 ### Neural Network
