@@ -356,6 +356,8 @@ The Gini Index or Gini Impurity favors large partitions and is simple to impleme
 
 ### Random Forest
 
+Random Forest is nothing but collection of mutiple decision trees.
+
 ### Neural Network
 
 ## Classification
