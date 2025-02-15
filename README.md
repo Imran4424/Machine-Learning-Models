@@ -298,7 +298,7 @@ Decision Tree Regression is a non-linear regression model that can handle comple
 
 Decision Tree Regression at the core is a binary tree which predicts continuous values. This model creates a root node on entire dataset then splits the data into smaller subsets based on decision rules derived from the input features. Each split is made to minimize the error in predicting the target variable.
 
-Where the split gonna happen is determined by the information entropy. For the first split, we look at the whole dataset for information entropy. For the next split, we consider the relevant split portion we are working on and its local entropy for the further split (more like a recursive split operation).
+Where the split gonna happen is determined by the Information Gain. To calculate Information Gain first we need to calculate Information Entropy. For the first split, we look at the whole dataset for information entropy. For the next split, we consider the relevant split portion we are working on and its local entropy for the further split (more like a recursive split operation).
 
 #### Information Entropy
 
