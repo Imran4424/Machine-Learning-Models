@@ -352,6 +352,8 @@ $$
 \boldsymbol{Gini = 1 -\displaystyle\sum_{i=1}^{c}(P_i)^2}
 $$
 
+The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, the results are given in terms of “success” or “failure.”
+
 ### Random Forest
 
 ### Neural Network
