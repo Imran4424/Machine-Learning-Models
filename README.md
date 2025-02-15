@@ -336,9 +336,9 @@ Between two choice in a decision tree if the choices are distributed among two c
 
 #### Information Gain
 
-Information gain is used to decide which feature to split on at each step in building the tree. The creation of sub-nodes increases the homogeneity, that is decreases the entropy of these nodes. The more the child node is homogeneous, the more the variance will be decreased after each split. Thus Information Gain is the variance reduction and can be calculated by how much the variance decreases after each split.
+Information gain decides which feature to split at each step in building the tree. Creating sub-nodes increases homogeneity, decreasing the entropy of these nodes. The more homogeneous the child node, the more the variance will decrease after each split. Thus, Information Gain is the variance reduction and can be calculated by determining how much the variance decreases after each split.
 
-Information gain of a parent node can be calculated as the entropy of the parent node subtracted entropy of the weighted average of the child node.
+Information gain of a parent node can be calculated as the entropy of the parent node subtracted from the entropy of the weighted average of the child node.
 
 For a dataset with many features, each feature's information gain is calculated. The feature with maximum information gain will be the most important feature, the root node for the decision tree.
 
