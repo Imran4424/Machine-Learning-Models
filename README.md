@@ -324,6 +324,16 @@ E(S) is the entropy of the dataset.
 c is the number of unique classes in the dataset
 $P_i$ is the proportion of instances in class $i$
 
+Here,
+
+$$
+\boldsymbol{P_i = \frac{\text{instances in class i}}{\text{total instances}}}
+$$
+
+Between two choice in a decision tree if all the choices belong to one particular choice then the entropy will be 0.
+
+Between two choice in a decision tree if the choices are distributed among two choices equally then the entropy will be 1.
+
 ### Random Forest
 
 ### Neural Network
