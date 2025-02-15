@@ -321,6 +321,8 @@ $$
 
 where,
 E(S) is the entropy of the dataset.
+c is the number of unique classes in the dataset
+$P_i$ is the proportion of instances in class $i$
 
 ### Random Forest
 
