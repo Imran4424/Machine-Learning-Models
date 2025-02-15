@@ -311,6 +311,8 @@ While building the Decision Tree, the below points are to be considered
 
 The provided dataset's disorder or impurity is measured by entropy.
 
+The values of the feature vectors linked to each data point are used for splitting the messy data in the decision tree. With each split, the data becomes more homogenous which will decrease the entropy. But in average case, some data in some nodes will not be homogenous and that will result into higher entropy values. With higher entropy it is really hard to predict any appropiate values. When the tree eventually reaches the terminal or leaf node, the highest level of purity is applied.
+
 ### Random Forest
 
 ### Neural Network
