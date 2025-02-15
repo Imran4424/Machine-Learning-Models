@@ -313,6 +313,15 @@ The provided dataset's disorder or impurity is measured by entropy.
 
 The values of the feature vectors linked to each data point are used for splitting the messy data in the decision tree. With each split, the data becomes more homogenous which will decrease the entropy. But in average case, some data in some nodes will not be homogenous and that will result into higher entropy values. With higher entropy it is really hard to predict any appropiate values. When the tree eventually reaches the terminal or leaf node, the highest level of purity is applied.
 
+The entropy of a dataset calculated by Shannon’s entropy formula
+
+$$
+\boldsymbol{E(S) = -\displaystyle\sum_{i=1}^{c}P_i log_2 P_i}
+$$
+
+where,
+E(S) is the entropy of the dataset.
+
 ### Random Forest
 
 ### Neural Network
