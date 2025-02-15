@@ -300,14 +300,14 @@ Decision Tree Regression at the core is a binary tree which predicts continuous 
 
 Where the split gonna happen is determined by the Information Gain. To calculate Information Gain first we need to calculate Information Entropy. For the first split, we look at the whole dataset for Information Entropy and Information Gain. For the next split, we consider the relevant split portion we are working on: local Information entropy and Information gain for the further split (more like a recursive split operation).
 
-#### Information Entropy
-
 While building the Decision Tree, the below points are to be considered
 
 - Features to choose
-- Conditions for splitting (Information Entropy)
+- Conditions for splitting (Information Entropy and Information gain)
 - To know where to stop
 - Pruning
+
+#### Information Entropy
 
 ### Random Forest
 
