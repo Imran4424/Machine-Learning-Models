@@ -334,6 +334,8 @@ Between two choice in a decision tree if all the choices belong to one particula
 
 Between two choice in a decision tree if the choices are distributed among two choices equally then the entropy will be 1.
 
+#### Information Gain
+
 ### Random Forest
 
 ### Neural Network
