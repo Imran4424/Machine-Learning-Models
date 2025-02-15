@@ -349,7 +349,7 @@ The Gini index can also be used for feature selection. The tree chooses the feat
 The Gini Index can be calculated by following formula
 
 $$
-\boldsymbol{Gini = -\displaystyle\sum_{i=1}^{c}P_i log_2 P_i}
+\boldsymbol{Gini = 1 -\displaystyle\sum_{i=1}^{c}(P_i)^2}
 $$
 
 ### Random Forest
