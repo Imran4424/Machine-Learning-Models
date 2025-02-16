@@ -371,13 +371,13 @@ Multiple machine-learning model combinations can happen in the following ways.
 
 In random forest, we will use the later version of Ensemble Learning, which combines multiple decision tree models to make predictions, improving accuracy and decreasing overfitting compared to a single decision tree.
 
-We can build Random Forest regression model using following steps
+We can build Random Forest regression model using the following steps
 
 1. **Bootstrap Sampling:** Create multiple subsets of training data by randomly selecting samples with replacement.
-2. **Random Forest Construction:** Use the created subsets of training data from step 1 for creating decision trees. Each subset is used to train an independent Decision Tree. Each tree uses a random subset of features to split nodes.
+2. **Random Forest Construction:** Use the subsets of training data created in Step 1 to create decision trees. Each subset is used to train an independent Decision Tree, which uses a random subset of features to split nodes.
 3. **Prediction Aggregation:** Random Forest Regression model takes the average of all individual tree predictions (In terms of Ensemble Learning, this technique is called bagging).
 
-Mathematical formula for random forest,
+Mathematical formula for the Random Forest Model,
 
 $$
 \boldsymbol{\hat{y} = \frac{1}{T}\displaystyle\sum_{i=1}^{T}y_i}
