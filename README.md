@@ -229,8 +229,8 @@ The Polynomial Regression Model is a special case of multiple linear regression 
 
 In a Polynomial Regression Model, the relationship between the independent(input) variable and dependent(output) variable is not linear. Simple and Multiple Linear Regression models are best suited for straight lines. But when the relationships between independent and dependent variables are better represented by a curve, the Polynomial Regression Model is a better choice than previously discussed linear regression models.
 
-Now a question can in our head, Can you call Polynomial Regresstion Model a Linear Regression Model since the input variables are n-degree polynomials?
-Yes, We can call Polynomial Regression Model a Linear Regression Model since the coefficients are all linear.
+Now, a question can arise: Can you call a Polynomial Regression Model a linear regression model since the input variables are n-degree polynomials?
+Yes, We can call the Polynomial Regression Model a Linear Regression Model since the coefficients are all linear.
 
 **Mathematical representation of Polynomial Regression Model**
 
