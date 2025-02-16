@@ -404,7 +404,7 @@ Spam detection in email services is the best real-world example of classificatio
 
 When email services only detect spam and not spam classification, it is called the binary classification technique.
 
-In the current world, we mostly use Gmail email services and gmail provides multi-class classification classification:
+In the current world, we primarily use Gmail email services and Gmail provides multi-class classification classification:
 
 - Primary: main email box
 - Promotions: product-related promotions email box
@@ -412,7 +412,7 @@ In the current world, we mostly use Gmail email services and gmail provides mult
 - Updates: Updates from different online services
 - Spam: The emails which are classified as spam
 
-There are various types of classification model available based on the number of predictor variables (input features) and the nature of the relationship between variables:
+There are various types of classification models available based on the number of predictor variables (input features) and the nature of the relationship between variables:
 
 - Logistic Regresstion
 - K-Nearest Neighbors (K-NN)
