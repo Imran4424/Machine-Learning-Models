@@ -225,7 +225,7 @@ $\epsilon$ = Error of estimation (difference between observed income and the inc
 
 ### Polynomial Regression
 
-Polynomial Regression Model is a special case multiple linear regression model where coefficients are all linear but the independent variable x is an nth-degree polynomial.
+The Polynomial Regression Model is a special case of multiple linear regression in which the coefficients are all linear, but the independent variable x is an nth-degree polynomial.
 
 In Polynomial Regression Model, the relationship between independent(input) variable and dependent(output) variable is not linear. Simple and Multiple Linear Regression models are best fit for straight line. But when the relationships between independent and dependent variables is better represented by a curve, Polynomial Regression Model is a better choice than previously discussed linear regression models.
 
@@ -253,7 +253,7 @@ $\beta_i$ = Coefficients of their polynomial terms
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 **When to use Polynomial Regression Model?**
-When the relationship between the dependent variable and independent variable is non-linear and we can not use simple and multiple linear regression to fit the data well. Then we can use Polynomial regression model. Best way to find out by ploting x vs y. If the plotted graph shows a parabolic, cubic, or other curved patterns, then the Polynomial Regression Model is a good choice
+When the relationship between the dependent and independent variables is non-linear, we can not use simple and multiple linear regression to fit the data well. Then, we can use the Polynomial regression model. The best way to find out is by plotting x vs y. If the plotted graph shows parabolic, cubic, or other curved patterns, then the Polynomial Regression Model is a good choice.
 
 **Among n-degree order which order should we use for our Polynomial Regression Model?**
 We can use Bayes Information Criteria for figuring out the appropiate regression model order.
