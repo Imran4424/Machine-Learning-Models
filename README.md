@@ -394,9 +394,13 @@ $\hat{y}$ is the final prediction of the random forest
 ## Classification
 
 - Logistic Regresstion
+- K-Nearest Neighbors (K-NN)
 - Support Vector Machine
+- Kernel Support Vector Machine
 - Naive Bayes
-- Decision Tree, Random Forest, Neural Network
+- Decision Tree Classification
+- Random Forest Classification
+- Neural Network
 
 ### Logistic Regresstion
 
