@@ -380,6 +380,8 @@ It random forest we will use the later version of Ensemble Learning which combin
 - Naive Bayes
 - Decision Tree, Random Forest, Neural Network
 
+### Logistic Regresstion
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
