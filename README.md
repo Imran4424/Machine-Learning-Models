@@ -393,6 +393,8 @@ $\hat{y}$ is the final prediction of the random forest
 
 ## Classification
 
+Classification is a supervised machine learning technique where the goal is to indentify the category of new observations based on training data.
+
 - Logistic Regresstion
 - K-Nearest Neighbors (K-NN)
 - Support Vector Machine
