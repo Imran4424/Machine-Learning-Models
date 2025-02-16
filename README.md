@@ -395,19 +395,19 @@ $\hat{y}$ is the final prediction of the random forest
 
 Classification is a supervised machine learning technique where the goal is to indentify (predict) the category of new observations based on training data.
 
-Same as regression, Classification has two different kinds of variables:
+Similar to regression, Classification has two different kinds of variables:
 
 - Independent variables: The features of the subject acting as input variables that influence the prediction
 - Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
 
-Spam detection in email services is the best real world example of classification techniques.
+Spam detection in email services is the best real-world example of classification techniques.
 
-When email services only detect spam and not spam classification, it is called binary classification technique.
+When email services only detect spam and not spam classification, it is called the binary classification technique.
 
-In current world, we mostly use gmail email services and gmail provides multi-class classification classification:
+In the current world, we mostly use Gmail email services and gmail provides multi-class classification classification:
 
 - Primary: main email box
-- Promotions: product related promotions email box
+- Promotions: product-related promotions email box
 - Social: Social Network related email box
 - Updates: Updates from different online services
 - Spam: The emails which are classified as spam
