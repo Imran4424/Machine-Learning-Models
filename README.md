@@ -373,6 +373,8 @@ In random forest, we will use the later version of Ensemble Learning, which comb
 
 We can build Random Forest regression model using following steps
 
+1. Bootstrap Sampling:
+
 ### Neural Network
 
 ## Classification
