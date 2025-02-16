@@ -377,11 +377,13 @@ We can build Random Forest regression model using following steps
 2. **Random Forest Construction:** Use the created subsets of training data from step 1 for creating decision trees. Each subset is used to train an independent Decision Tree. Each tree uses a random subset of features to split nodes.
 3. **Prediction Aggregation:** Random Forest Regression model takes the average of all individual tree predictions (In terms of Ensemble Learning, this technique is called bagging).
 
-Mathematical formula for random forest
+Mathematical formula for random forest,
 
 $$
-\boldsymbol{Gini = 1 -\displaystyle\sum_{i=1}^{c}(P_i)^2}
+\boldsymbol{\hat{y} = \frac{1}{T}\displaystyle\sum_{i=1}^{T}y_i}
 $$
+
+where,
 
 ### Neural Network
 
