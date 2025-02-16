@@ -382,6 +382,8 @@ It random forest we will use the later version of Ensemble Learning which combin
 
 ### Logistic Regresstion
 
+### Support Vector Machine
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
