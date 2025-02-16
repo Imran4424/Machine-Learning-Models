@@ -402,7 +402,7 @@ Same as regression, Classification has two different kinds of variables:
 
 Spam detection in email services is the best real world example of classification techniques.
 
-There are various types of classification model available based on the number of predictor variables and the nature of the relationship between variables:
+There are various types of classification model available based on the number of predictor variables (input features) and the nature of the relationship between variables:
 
 - Logistic Regresstion
 - K-Nearest Neighbors (K-NN)
