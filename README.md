@@ -367,7 +367,7 @@ Ensemble Learning is a fantastic machine learning technique that combines multip
 Multiple machine-learning model combinations can happen in the following ways.
 
 - Ensemble learning combining multiple models (individual different models)
-- Ensemble learning combining same model multiple times
+- Ensemble learning by combining the same model multiple times
 
 It random forest we will use the later version of Ensemble Learning which combines multiple decision tree models to make predictions, improving accuracy and reducing overfitting compared to single decision tree.
 
