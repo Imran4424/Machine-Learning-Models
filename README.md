@@ -386,6 +386,7 @@ $$
 where,
 T is the total number of decision tress in the forest
 $y_i$ is the prediction from the i-th tree
+$\hat{y}$ is the final prediction of the random forest
 
 ### Neural Network
 
