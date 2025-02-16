@@ -406,10 +406,11 @@ When email services only detect spam and not spam classification, it is called b
 
 In current world, we mostly use gmail email services and gmail provides multi-class classification classification:
 
-- Primary: main mail box
-- Promotions: product related promotions mail box
-- Social: Social Network related mail box
+- Primary: main email box
+- Promotions: product related promotions email box
+- Social: Social Network related email box
 - Updates: Updates from different online services
+- Spam: The emails which are classified as spam
 
 There are various types of classification model available based on the number of predictor variables (input features) and the nature of the relationship between variables:
 
