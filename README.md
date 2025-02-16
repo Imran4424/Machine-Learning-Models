@@ -371,6 +371,8 @@ Multiple machine-learning model combinations can happen in the following ways.
 
 In random forest, we will use the later version of Ensemble Learning, which combines multiple decision tree models to make predictions, improving accuracy and decreasing overfitting compared to a single decision tree.
 
+We can build Random Forest regression model using following steps
+
 ### Neural Network
 
 ## Classification
