@@ -227,7 +227,7 @@ $\epsilon$ = Error of estimation (difference between observed income and the inc
 
 The Polynomial Regression Model is a special case of multiple linear regression in which the coefficients are all linear, but the independent variable x is an nth-degree polynomial.
 
-In Polynomial Regression Model, the relationship between independent(input) variable and dependent(output) variable is not linear. Simple and Multiple Linear Regression models are best fit for straight line. But when the relationships between independent and dependent variables is better represented by a curve, Polynomial Regression Model is a better choice than previously discussed linear regression models.
+In a Polynomial Regression Model, the relationship between the independent(input) variable and dependent(output) variable is not linear. Simple and Multiple Linear Regression models are best suited for straight lines. But when the relationships between independent and dependent variables are better represented by a curve, the Polynomial Regression Model is a better choice than previously discussed linear regression models.
 
 Now a question can in our head, Can you call Polynomial Regresstion Model a Linear Regression Model since the input variables are n-degree polynomials?
 Yes, We can call Polynomial Regression Model a Linear Regression Model since the coefficients are all linear.
