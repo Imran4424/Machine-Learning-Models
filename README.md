@@ -402,6 +402,15 @@ Same as regression, Classification has two different kinds of variables:
 
 Spam detection in email services is the best real world example of classification techniques.
 
+When email services only detect spam and not spam classification, it is called binary classification technique.
+
+In current world, we mostly use gmail email services and gmail provides multi-class classification classification:
+
+- Primary: main mail box
+- Promotions: product related promotions mail box
+- Social: Social Network related mail box
+- Updates: Updates from different online services
+
 There are various types of classification model available based on the number of predictor variables (input features) and the nature of the relationship between variables:
 
 - Logistic Regresstion
