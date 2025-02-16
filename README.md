@@ -384,6 +384,8 @@ It random forest we will use the later version of Ensemble Learning which combin
 
 ### Support Vector Machine
 
+### Naive Bayes
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
