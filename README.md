@@ -400,7 +400,7 @@ Same as regression, Classification has two different kinds of variables:
 - Independent variables: The features of the subject acting as input variables that influence the prediction
 - Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
 
-Best real world example of classification is email service.
+Spam detection in email services is the best real world example of classification techniques.
 
 There are various types of classification model available based on the number of predictor variables and the nature of the relationship between variables:
 
