@@ -157,9 +157,9 @@ There are various types of regression model available based on the number of pre
 - Linear Regresstion
 - Polynomial Regresstion
 - Ridge and Lasso Regression
-- Decision Tree
-- Random Forest
-- Neural Network
+- Decision Tree Regression
+- Random Forest Regression
+- Neural Network Regression
 
 ### Linear Regression
 
