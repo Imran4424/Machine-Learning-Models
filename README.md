@@ -393,7 +393,14 @@ $\hat{y}$ is the final prediction of the random forest
 
 ## Classification
 
-Classification is a supervised machine learning technique where the goal is to indentify the category of new observations based on training data.
+Classification is a supervised machine learning technique where the goal is to indentify (predict) the category of new observations based on training data.
+
+Same as regression, Classification has two different kinds of variables:
+
+- Independent variables: The features of the subject acting as input variables that influence the prediction
+- Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
+
+discrete
 
 - Logistic Regresstion
 - K-Nearest Neighbors (K-NN)
