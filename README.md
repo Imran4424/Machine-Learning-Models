@@ -362,7 +362,7 @@ Before talking more about Random Forest. Let's talk about Ensemble Learning
 
 #### Ensemble Learning
 
-Ensemble learning is a machine learning technique
+Ensemble learning is a machine learning technique that combines multiple machine learning models to improve predictions.
 
 ### Neural Network
 
