@@ -426,6 +426,7 @@ There are various types of classification models available based on the number o
 ### Logistic Regresstion
 
 Logistic regression
+Logistic
 
 associated
 also
