@@ -431,6 +431,8 @@ logic
 
 ### Support Vector Machine
 
+Support vector machine
+
 ### Naive Bayes
 
 # Unsupervised Learning
