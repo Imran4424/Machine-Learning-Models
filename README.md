@@ -427,8 +427,6 @@ There are various types of classification models available based on the number o
 
 Logistic regression
 
-associated
-
 ### Support Vector Machine
 
 Support vector machine
