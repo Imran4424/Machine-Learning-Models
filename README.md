@@ -442,6 +442,8 @@ machine
 
 ### Naive Bayes
 
+Naive
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
