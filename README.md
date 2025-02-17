@@ -425,7 +425,7 @@ There are various types of classification models available based on the number o
 
 ### Logistic Regresstion
 
-Logistic regression
+Logistic Regression model used for binary
 
 ### Support Vector Machine
 
