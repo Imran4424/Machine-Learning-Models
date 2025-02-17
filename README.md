@@ -427,6 +427,8 @@ There are various types of classification models available based on the number o
 
 fasdf
 dasd
+associated
+also
 
 ### Support Vector Machine
 
