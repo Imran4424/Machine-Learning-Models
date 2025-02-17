@@ -431,7 +431,6 @@ Regression
 
 associated
 also
-logic
 
 ### Support Vector Machine
 
