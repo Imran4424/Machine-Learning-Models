@@ -433,6 +433,7 @@ logic
 
 Support vector machine
 Support
+vector
 
 ### Naive Bayes
 
