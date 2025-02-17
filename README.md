@@ -442,7 +442,7 @@ machine
 
 ### Naive Bayes
 
-Naive
+Naive Bayes
 
 # Unsupervised Learning
 
