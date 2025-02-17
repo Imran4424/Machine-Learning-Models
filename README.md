@@ -438,7 +438,6 @@ logic
 Support vector machine
 Support
 vector
-machine
 
 ### Naive Bayes
 
