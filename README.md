@@ -425,7 +425,7 @@ There are various types of classification models available based on the number o
 
 ### Logistic Regresstion
 
-Logistic Regression is a supervised machine learning model used for classification tasks....
+Logistic Regression is a supervised machine learning model used for classification tasks...
 
 ### Support Vector Machine
 
