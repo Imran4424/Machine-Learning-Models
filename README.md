@@ -295,6 +295,8 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Support Vector Regression
 
+Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks).
+
 ### Decision Tree
 
 Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It makes predictions using a tree-like model, making it flexible and easy to interpret.
