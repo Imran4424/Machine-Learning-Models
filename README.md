@@ -442,15 +442,15 @@ $$
 For single independent variable using P for probability (this equation is derived from linear regression)
 
 $$
-\boldsymbol{ P = \beta_0 + \beta_1 x + \epsilon}
+\boldsymbol{ \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
 $$
 
 $$
-\boldsymbol{ln \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
+\boldsymbol{log \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
 $$
 
 $$
-\boldsymbol{ln \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
+\boldsymbol{e^{ln \frac{P}{1-P}} = e^{\beta_0 + \beta_1 x} + \epsilon}
 $$
 
 Real world example of Logistic regression
