@@ -300,6 +300,8 @@ Support Vector Regression Model is a special type of Support Vector Machine Mode
 
 While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
+This tu
+
 ### Decision Tree
 
 Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It makes predictions using a tree-like model, making it flexible and easy to interpret.
