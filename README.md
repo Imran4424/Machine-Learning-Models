@@ -439,18 +439,18 @@ $$
 
 **Mathematical representation of Logistic Regression Model**
 
-For single independent variable using P for probability (this equation is derived from linear regression)
+For single independent variable using P for probability
 
 $$
-\boldsymbol{ \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
+\boldsymbol{ P = \frac{1}{1 + e^{-\beta_0 + \beta_1 x}} + \epsilon}
 $$
 
-$$
-\boldsymbol{log \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
-$$
+we can see the full derivation of the above equation [here](https://www.analyticsvidhya.com/blog/2021/08/conceptual-understanding-of-logistic-regression-for-data-science-beginners/)
+
+For multiple independent variables using P for probability
 
 $$
-\boldsymbol{e^{ln \frac{P}{1-P}} = e^{\beta_0 + \beta_1 x} + \epsilon}
+\boldsymbol{ P = \frac{1}{1 + e^{-\beta_0 + \displaystyle\sum_{i=1}^{n} \beta_i x_i}} + \epsilon}
 $$
 
 Real world example of Logistic regression
