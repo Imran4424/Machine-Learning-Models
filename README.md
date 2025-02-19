@@ -298,7 +298,7 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). The Support Vector Regression Model which uses linear kernel works with linear datasets.
 
-While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model
+While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
 ### Decision Tree
 
