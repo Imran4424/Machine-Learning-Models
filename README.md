@@ -158,7 +158,7 @@ There are various types of regression model available based on the number of pre
 - Polynomial Regresstion
 - Ridge and Lasso Regression
 - Support Vector Regression
-- RBF Kernel Support Vector Regression
+- Kernel Support Vector Regression
 - Decision Tree Regression
 - Random Forest Regression
 - Neural Network Regression
@@ -296,7 +296,7 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Support Vector Regression
 
-Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks).
+Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). Support Vector Regression Model
 
 ### Decision Tree
 
