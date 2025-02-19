@@ -429,6 +429,26 @@ Logistic Regression is a supervised machine learning model used for classificati
 
 Key difference between linear regression here that, in Linear Regression we predict continuous variable but in Logistic Regression we predict categorical variable.
 
+Logistic Regression model is used for binary classification where we use **sigmoid function** that takes input as independent variables and produce probability between 0 and 1.
+
+Mathematical equation for sigmoid function
+
+$$
+\boldsymbol{\sigma(z) = \frac{1}{1 + e^{-z}}}
+$$
+
+**Mathematical representation of Logistic Regression Model**
+
+For single independent variable
+
+$$
+\boldsymbol{ln \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
+$$
+
+$$
+\boldsymbol{ln \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
+$$
+
 Real world example of Logistic regression
 
 - Dependent variable will someone purchase health insurance, independent variable people's age
