@@ -425,11 +425,11 @@ There are various types of classification models available based on the number o
 
 ### Logistic Regresstion
 
-Logistic Regression is a supervised machine learning model used for classification tasks. Logistic Regression model predict a categorical dependent variable based on a number of independent variables (extracted features of the subject).
+Logistic Regression is a supervised machine-learning model used for classification tasks. The logistic regression model predicts a categorical dependent variable based on several independent variables (extracted features of the subject).
 
-Key difference between linear regression here that, in Linear Regression we predict continuous variable but in Logistic Regression we predict categorical variable.
+The key difference between linear regression here is that Linear Regression predicts continuous variables but Logistic Regression predicts categorical variables.
 
-Logistic Regression model is used for binary classification where we use **sigmoid function** that takes input as independent variables and produce probability between 0 and 1.
+The logistic Regression model is used for binary classification, using the **sigmoid function** that takes input as independent variables and produces probability between 0 and 1.
 
 Mathematical equation for sigmoid function
 
