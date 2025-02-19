@@ -439,7 +439,7 @@ $$
 
 **Mathematical representation of Logistic Regression Model**
 
-For single independent variable using P for probability
+For a single independent variable using P for probability
 
 $$
 \boldsymbol{ P = \frac{1}{1 + e^{-\beta_0 + \beta_1 x}} + \epsilon}
@@ -453,10 +453,10 @@ $$
 \boldsymbol{ P = \frac{1}{1 + e^{-\beta_0 + \displaystyle\sum_{i=1}^{n} \beta_i x_i}} + \epsilon}
 $$
 
-Real world example of Logistic regression
+Real-world example of Logistic regression
 
-- Dependent variable will someone purchase health insurance, independent variable people's age
-- Dependent variable will someone purchase health insurance, independent variable people's age, income, level of education, have family or single
+- The dependent variable will someone purchase health insurance, and the independent variable is people's age
+- The dependent variable is someone purchased health insurance, and the independent variable is people's age, income, level of education, having a family or single
 
 ### Support Vector Machine
 
