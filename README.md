@@ -300,7 +300,7 @@ Support Vector Regression Model is a special type of Support Vector Machine Mode
 
 While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
-This tube has
+This tube has w
 
 ### Decision Tree
 
