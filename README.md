@@ -439,7 +439,11 @@ $$
 
 **Mathematical representation of Logistic Regression Model**
 
-For single independent variable
+For single independent variable using P for probability (this equation is derived from linear regression)
+
+$$
+\boldsymbol{ P = \beta_0 + \beta_1 x + \epsilon}
+$$
 
 $$
 \boldsymbol{ln \frac{P}{1-P} = \beta_0 + \beta_1 x + \epsilon}
