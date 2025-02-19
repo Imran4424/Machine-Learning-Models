@@ -294,9 +294,9 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 - Inflation and GDP growth prediction
 - Energy consumtion prediction compared to outdoor environment
 
-### Support Vector Regression
+### Support Vector Regression (Linear Kernel)
 
-Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). Support Vector Regression Model
+Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). The Support Vector Regression Model which uses linear Kernel
 
 ### Decision Tree
 
