@@ -431,7 +431,8 @@ Key difference between linear regression here that, in Linear Regression we pred
 
 Real world example of Logistic regression
 
--
+- Dependent variable will someone purchase health insurance, independent variable people's age
+- Dependent variable will someone purchase health insurance, independent variable people's age, income, level of education, Family or Single
 
 ### Support Vector Machine
 
