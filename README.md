@@ -296,7 +296,7 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 ### Support Vector Regression (Linear Kernel)
 
-Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). The Support Vector Regression Model which uses linear Kernel
+Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). The Support Vector Regression Model which uses linear Kernel works with Linear datasets.
 
 ### Decision Tree
 
