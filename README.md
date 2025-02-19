@@ -300,7 +300,7 @@ Support Vector Regression Model is a special type of Support Vector Machine Mode
 
 While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
-This tube has width of $\epsilon$ and the width has measured vertically along the axis not perpendicular to the tube but vertically. This tube itself is called the epsilon-insensitive tube. Any point in our dataset that fall inside the tube that won't be disregarded as error. This epsilon-insensitive tube work as a margi
+This tube has width of $\epsilon$ and the width has measured vertically along the axis not perpendicular to the tube but vertically. This tube itself is called the epsilon-insensitive tube. Any point in our dataset that fall inside the tube that won't be disregarded as error. This epsilon-insensitive tube work as a margin
 
 ### Decision Tree
 
