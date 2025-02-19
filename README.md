@@ -304,7 +304,7 @@ This tube has width of $\epsilon$ and the width has measured vertically along th
 
 At the same time we also have points outside epsilon-insensitive tube and for them we do care about the error. The error will be measured as the distance between that point and the tube itself.
 
-The point outside the epsilon-insensitive tube are
+The point outside the epsilon-insensitive tube are dictating what the tube will look like
 
 ### Decision Tree
 
