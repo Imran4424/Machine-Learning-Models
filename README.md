@@ -293,6 +293,8 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 - Inflation and GDP growth prediction
 - Energy consumtion prediction compared to outdoor environment
 
+### Support Vector Regression
+
 ### Decision Tree
 
 Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It makes predictions using a tree-like model, making it flexible and easy to interpret.
