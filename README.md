@@ -306,6 +306,8 @@ At the same time we also have points outside epsilon-insensitive tube and for th
 
 The point outside the epsilon-insensitive tube are dictating what the tube will look like, how the tube will be positioned. Any points in the Support Vector Regression model plot is a vector (2D or multi-dimentional based on the number of features). The vector points which are outside the epsilon-insensitive tube are called support vectors because they are dictating how the tube will be positioned. And from their this model is named Support Vector Regression.
 
+For [further reading](https://core.ac.uk/download/pdf/81523322.pdf)
+
 ### Decision Tree
 
 Decision Tree Regression is a non-linear regression model that can handle complex datasets with complicated patterns. It makes predictions using a tree-like model, making it flexible and easy to interpret.
