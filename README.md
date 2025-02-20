@@ -302,11 +302,7 @@ While Linear Regression Model fits a straight line minimizing the squared error(
 
 ![Linear Regression](LinearRegression.png)
 
-<img src="LinearRegression.png" alt="Linear Regression" width="300" height="200">
-
-<p align="center">
-  <img src="LinearRegression.png" width="300">
-</p>
+<img src="LinearRegression.png" alt="Linear Regression" width="80%" height="80%">
 
 Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
