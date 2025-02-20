@@ -302,6 +302,8 @@ While Linear Regression Model fits a straight line minimizing the squared error(
 
 ![local Image](LinearRegression.png)
 
+<img src="LinearRegression.png" alt="Description" width="300" height="200">
+
 Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
 This tube has width of $\epsilon$ and the width has measured vertically along the axis not perpendicular to the tube but vertically. This tube itself is called the epsilon-insensitive tube. Any point in our dataset that fall inside the tube that won't be disregarded as error. This epsilon-insensitive tube work as a margin of error that we are allowing our model to have and not care about any error inside here. Compared to Linear Regression model, Support Vector Regression model provides a bit of buffer through the epsilon-insensitive tube.
