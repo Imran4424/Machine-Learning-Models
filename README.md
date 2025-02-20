@@ -298,7 +298,9 @@ We need to run through $BIC_k$ equation for some orders and create a plot **poly
 
 Support Vector Regression Model is a special type of Support Vector Machine Model which is used for predicting continuous values (regression tasks). The Support Vector Regression Model which uses linear kernel works with linear datasets.
 
-While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods), Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
+While Linear Regression Model fits a straight line minimizing the squared error(using ordiniary least squared methods)
+
+Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
 
 This tube has width of $\epsilon$ and the width has measured vertically along the axis not perpendicular to the tube but vertically. This tube itself is called the epsilon-insensitive tube. Any point in our dataset that fall inside the tube that won't be disregarded as error. This epsilon-insensitive tube work as a margin of error that we are allowing our model to have and not care about any error inside here. Compared to Linear Regression model, Support Vector Regression model provides a bit of buffer through the epsilon-insensitive tube.
 
