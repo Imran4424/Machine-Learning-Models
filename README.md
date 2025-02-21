@@ -324,12 +324,12 @@ $$
 
 where,
 
-- $w$ is weight vector
+- $w$ is the weight vector
 - $\boldsymbol{\frac{1}{2} \|w\|^2}$ is the regulation term
-- C is the hyper parameter that controls the trade-off between margin maximization and error tolerance.
+- C is the hyperparameter that controls the trade-off between margin maximization and error tolerance.
   - Large C &rarr; Less tolerance for errors &rarr; Higher complexity (risk of overfitting).
   - Small C &rarr; More tolerance for errors &rarr; Simpler model(risk of underfitting).
-- $\xi_i$ and $\xi_i^*$ are slack variables that allow derivationfor deviations beyond the margin $\epsilon$
+- $\xi_i$ and $\xi_i^*$ are slack variables that allow derivation for deviations beyond the margin $\epsilon$
 
 For [further reading](https://core.ac.uk/download/pdf/81523322.pdf)
 
