@@ -316,7 +316,20 @@ At the same time, we also have points outside the epsilon-insensitive tube and f
 
 The point outside the epsilon-insensitive tube is dictating what the tube will look like, and how the tube will be positioned. Any point in the Support Vector Regression model plot is a vector (2D or multi-dimensional based on the number of features). The vector points that are outside the epsilon-insensitive tube are called support vectors because they are dictating how the tube will be positioned. Thus, this model is named Support Vector Regression.
 
-Mathematical representation of Support Vector Regression
+Mathematical representation of Support Vector Regression is
+
+$$
+\boldsymbol{\frac{1}{2} \|w\|^2 + C \sum_{i=1}^{m} (\xi_i + \xi_i^*) \to \min}
+$$
+
+where,
+
+- $w$ is weight vector
+- $\boldsymbol{\frac{1}{2} \|w\|^2}$ is the regulation term
+- C is the hyper parameter that controls the trade-off between margin maximization and error tolerance.
+  - Large C &rarr; Less tolerance for errors &rarr; Higher complexity (risk of overfitting).
+  - Small C &rarr; More tolerance for errors &rarr; Simpler model(risk of underfitting).
+- $\xi_i$ and $\xi_i^*$ are slack variables that allow derivationfor deviations beyond the margin $\epsilon$
 
 For [further reading](https://core.ac.uk/download/pdf/81523322.pdf)
 
