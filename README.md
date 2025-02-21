@@ -304,7 +304,7 @@ While the Linear Regression Model fits a straight line minimizing the squared er
 
 <!-- <img src="LinearRegression.png" alt="Linear Regression" width="80%" height="80%"> -->
 
-The Support Vector Regression Model fit a tube (known as $\epsilon$ tube)
+The Support Vector Regression Model fit a tube (known as $\epsilon$-insensitive tube)
 
 ![Support Vector Regression](SupportVectorRegression.png)
 
