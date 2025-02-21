@@ -142,20 +142,20 @@ Usually, we need to divide the whole dataset as a Training and testing dataset. 
 
 Supervised Machine Learning Models are broadly categorized into two subcategories.
 
-- Regresstion
+- Regression
 - Classification
 
-## Regresstion
+## Regression
 
-Regresstion is a supervised machine learning technique where the goal is to predict a continuous numerical value based on one or more independent features. In order to make predictions, it determines the relationships between variables. In regression, there are two different kinds of variables:
+Regression is a supervised machine learning technique where the goal is to predict a continuous numerical value based on one or more independent features. In order to make predictions, it determines the relationships between variables. In regression, there are two different kinds of variables:
 
 - Independent variables: The features of the subject acting as input variables that influence the prediction
 - Dependent Variable: Output variable of the subject which we are trying to predict based on the features of the subject
 
 There are various types of regression model available based on the number of predictor variables and the nature of the relationship between variables:
 
-- Linear Regresstion
-- Polynomial Regresstion
+- Linear Regression
+- Polynomial Regression
 - Ridge and Lasso Regression
 - Support Vector Regression (Linear Kernel)
 - Support Vector Regression (Non-Linear Kernel )
@@ -179,7 +179,7 @@ Where,
 y = Dependent variable (Target variable which we are trying to predict)
 x = Independent variable (features / input variable)
 $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
-$\beta_1$ = Linear Regresstion coefficient
+$\beta_1$ = Linear Regression coefficient
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 There are two types of linear regression model based on the number of input variables
@@ -217,7 +217,7 @@ Where,
 y = Dependent variable (Target variable which we are trying to predict)
 $x_i$ = Independent variables (features / input variable)
 $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
-$\beta_i$ = Linear Regresstion coefficients of their associated independent variables
+$\beta_i$ = Linear Regression coefficients of their associated independent variables
 $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 #### Linear Regression Examples
@@ -315,6 +315,8 @@ At the same time, we also have points outside the epsilon-insensitive tube and f
 ![Support Vectors](SupportVectors.png)
 
 The point outside the epsilon-insensitive tube is dictating what the tube will look like, and how the tube will be positioned. Any point in the Support Vector Regression model plot is a vector (2D or multi-dimensional based on the number of features). The vector points that are outside the epsilon-insensitive tube are called support vectors because they are dictating how the tube will be positioned. Thus, this model is named Support Vector Regression.
+
+Mathematical representation of Support Vector Regression
 
 For [further reading](https://core.ac.uk/download/pdf/81523322.pdf)
 
@@ -439,7 +441,7 @@ In the current world, we primarily use Gmail email services and Gmail provides m
 
 There are various types of classification models available based on the number of predictor variables (input features) and the nature of the relationship between variables:
 
-- Logistic Regresstion
+- Logistic Regression
 - K-Nearest Neighbors (K-NN)
 - Support Vector Machine
 - Kernel Support Vector Machine
@@ -448,7 +450,7 @@ There are various types of classification models available based on the number o
 - Random Forest Classification
 - Neural Network
 
-### Logistic Regresstion
+### Logistic Regression
 
 Logistic Regression is a supervised machine-learning model used for classification tasks. The logistic regression model predicts a categorical dependent variable based on several independent variables (extracted features of the subject).
 
