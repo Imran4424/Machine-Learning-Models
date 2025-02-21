@@ -500,7 +500,7 @@ Real-world example of Logistic regression
 
 ### Support Vector Machine
 
-Support vector machines
+Support vector machine
 
 ### Naive Bayes
 
