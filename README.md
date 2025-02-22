@@ -502,9 +502,7 @@ Real-world example of Logistic regression
 
 Support Vector Machine is a supervised machine learning model used for classification tasks. Support Vector Machines perform a classification tasks drawing a hyperplane. A hyperplane is a decision boundary that separates different classes. The goal is to find the optimal hyperplane (decision boundary) that maximizes the margin between classes. The optimal hyperplane(decision boundary) is searched through maximum margin that means the most optimal hyperplane will have equidistant from the nearest points of each classes.
 
-Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features).
-
-The nearest vectors of each class is called support vectors.
+Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features). The nearest vectors to the hyperplane of each class is called support vectors.
 
 ### Naive Bayes
 
