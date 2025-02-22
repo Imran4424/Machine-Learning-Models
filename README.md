@@ -312,7 +312,7 @@ This tube has a width of $\epsilon$ and the width is measured vertically along t
 
 At the same time, we also have points outside the epsilon-insensitive tube and for them, we do care about the error. The error will be measured as the distance between that point and the tube itself.
 
-![Support Vectors](SupportVectors.png)
+![Support Vectors](SupportVectorRegression2.png)
 
 The point outside the epsilon-insensitive tube is dictating what the tube will look like, and how the tube will be positioned. Any point in the Support Vector Regression model plot is a vector (2D or multi-dimensional based on the number of features). The vector points that are outside the epsilon-insensitive tube are called support vectors because they are dictating how the tube will be positioned. Thus, this model is named Support Vector Regression.
 
