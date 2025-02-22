@@ -504,7 +504,7 @@ Support Vector Machine is a supervised machine learning model used for classific
 
 Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features).
 
-The nearest points of each class is called support vectors.
+The nearest vectors of each class is called support vectors.
 
 ### Naive Bayes
 
