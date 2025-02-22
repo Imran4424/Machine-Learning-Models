@@ -504,7 +504,7 @@ Support Vector Machine is a supervised machine learning model used for classific
 
 ![Hyperplane](DecisionBoundary.png)
 
-Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features). The nearest vectors to the hyperplane of each class is called support vectors becuase they are dictating how the optimal hyperplane will be positioned. If we remove all other vectors except support vectors, the hyperplane will be same for that dataset.
+Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features). The nearest vectors to the hyperplane of each class is called support vectors becuase they are dictating how the optimal hyperplane will be positioned. If we remove all other vectors except support vectors, the hyperplane will be same for that dataset. Thus, this model is named Support Vector Machine.
 
 ### Naive Bayes
 
