@@ -500,7 +500,7 @@ Real-world example of Logistic regression
 
 ### Support Vector Machine
 
-Support Vector Machine is a supervised machine learning model used for classification tasks.
+Support Vector Machine is a supervised machine learning model used for classification tasks. Support Vector Machines perform a classification tasks drawing a hyperplane.
 
 ### Naive Bayes
 
