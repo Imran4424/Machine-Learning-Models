@@ -508,7 +508,7 @@ Any point in the Support Vector Machine model plot is a vector (2D or multi-dime
 
 ![Support Vectors](SupportVectorsClassification.png)
 
-**Maximum Margin **
+**Maximum Margin Hyperplane**
 
 ### Naive Bayes
 
