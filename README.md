@@ -508,7 +508,7 @@ Any point in the Support Vector Machine model plot is a vector (2D or multi-dime
 
 ![Support Vectors](SupportVectorsClassification.png)
 
-**Maximum Margin Hyperplane (Maximum Margin Classifier)**
+**Maximum Margin Hyperplane**
 Maximum Margin Hyperplane (Maximum Margin Classifier)
 
 ![Support Vectors](MaximumMarginHyperplane.png)
