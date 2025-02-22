@@ -510,7 +510,7 @@ Any point in the Support Vector Machine model plot is a vector (2D or multi-dime
 
 **Maximum Margin Hyperplane (Maximum Margin Classifier)**
 
-**What's so special about?**
+**What's so special about Support Vector Machines?**
 
 ### Naive Bayes
 
