@@ -500,7 +500,7 @@ Real-world example of Logistic regression
 
 ### Support Vector Machine
 
-Support Vector Machine is a supervised machine learning model used for classification tasks. Support Vector Machines perform a classification tasks drawing a hyperplane. A hyperplane is a decision boundary that separates different classes. The goal is to find the optimal hyperplane that maximizes the margin between classes.
+Support Vector Machine is a supervised machine learning model used for classification tasks. Support Vector Machines perform a classification tasks drawing a hyperplane. A hyperplane is a decision boundary that separates different classes. The goal is to find the optimal hyperplane (decision boundary) that maximizes the margin between classes.
 
 ### Naive Bayes
 
