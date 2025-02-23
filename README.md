@@ -570,7 +570,7 @@ $$
 \boldsymbol{A \cap B = P(B|A) * P(A)}
 $$
 
-By substituting $A \cap B$ in the conditional probability is for $P(A|B)$ we get Mathematical representation of Bayes Theorem,
+By substituting $A \cap B$ in the conditional probability for $P(A|B)$ we get Mathematical representation of Bayes Theorem,
 
 $$
 \boldsymbol{P(A|B) = \frac{P(B|A) * P(A)}{P(B)}}
