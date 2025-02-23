@@ -538,7 +538,7 @@ Naive Bayes is a supervised machine learning model which is used for classificat
 Now, What is Bayes Theorem?
 Bayes Theorem is mathematical formula to calculate conditional probability of an event occuring based on the fact the another event is already occuring.
 
-The mathematical definition of conditional probability is
+The mathematical definition of conditional probability is for P(A|B)
 
 $$
 \boldsymbol{P(A|B) = \frac{A \cap B}{P(B)}}
@@ -567,10 +567,10 @@ $$
 $$
 
 $$
-\boldsymbol{P(B|A) = \frac{A \cap B}{P(A)}}
+\boldsymbol{A \cap B = P(B|A) * P(A)}
 $$
 
-Mathematical representation of Bayes Theorem,
+By substituting $A \cap B$ in the conditional probability is for $P(A|B)$ we get Mathematical representation of Bayes Theorem,
 
 $$
 \boldsymbol{P(A|B) = \frac{P(B|A) * P(A)}{P(B)}}
