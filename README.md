@@ -549,6 +549,12 @@ $P(A|B)$ is the probability event A occuring given B has occured
 $A \cap B$ is the probability of insection of A and B which means probability of happening A and B at the same time
 $P(B)$ is the probability of event B occuring
 
+The conditional probability for P(B|A) is
+
+$$
+\boldsymbol{P(B|A) = \frac{B \cap A}{P(A)}}
+$$
+
 Mathematical representation of Bayes Theorem,
 
 $$
