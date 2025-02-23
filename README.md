@@ -537,7 +537,7 @@ Naive Bayes is a supervised machine learning model which is used for classificat
 
 Now, What is bayes Theorem
 
-Mathematical representation of Bayes Theorem,,
+Mathematical representation of Bayes Theorem,,,
 
 $$
 \boldsymbol{P(A|B) = \frac{P(B|A) * P(A)}{P(B)}}
