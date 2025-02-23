@@ -566,6 +566,10 @@ $$
 \boldsymbol{P(B|A) = \frac{A \cap B}{P(A)}}
 $$
 
+$$
+\boldsymbol{P(B|A) = \frac{A \cap B}{P(A)}}
+$$
+
 Mathematical representation of Bayes Theorem,
 
 $$
