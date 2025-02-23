@@ -536,7 +536,7 @@ Naive Bayes is a supervised machine learning model which is used for classificat
 #### Bayes Theorem
 
 Now, What is Bayes Theorem?
-Bayes Theorem is mathematical formula to calculate probability of an event based on the fact the another event is already occuring.
+Bayes Theorem is mathematical formula to calculate conditional probability of an event occuring based on the fact the another event is already occuring.
 
 Mathematical representation of Bayes Theorem,
 
