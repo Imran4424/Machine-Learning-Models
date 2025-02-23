@@ -546,7 +546,7 @@ $$
 
 where,
 $P(A|B)$ is the probability event A occuring given B has occured
-$A \cap B$ is the
+$A \cap B$ is the probability of insection of A and B which means probability of happening A and B at the same time
 $P(B)$ is the probability of event B occuring
 
 Mathematical representation of Bayes Theorem,
