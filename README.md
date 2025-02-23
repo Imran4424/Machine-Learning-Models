@@ -541,8 +541,12 @@ Bayes Theorem is mathematical formula to calculate conditional probability of an
 The mathematical definition of conditional probability is
 
 $$
-\boldsymbol{}
+\boldsymbol{P(A|B) = \frac{A \cap B}{P(B)}}
 $$
+
+where,
+$P(A|B)$ is the probability event A occuring given B has occured
+$P(B)$ is the probability of event B occuring
 
 Mathematical representation of Bayes Theorem,
 
@@ -551,10 +555,10 @@ $$
 $$
 
 Where,
-P(A|B) is the probability event A occuring given B has occured
-P(B|A) is the probability event B occuring given A has occured
-P(A) is the probability of event A occuring
-P(B) is the probability of event B occuring
+$P(A|B)$ is the probability event A occuring given B has occured
+$P(B|A)$ is the probability event B occuring given A has occured
+$P(A)$ is the probability of event A occuring
+$P(B)$ is the probability of event B occuring
 
 # Unsupervised Learning
 
