@@ -531,7 +531,7 @@ $$
 
 ### Naive Bayes
 
-Naive Bayes is a supervised machine
+Naive Bayes is a supervised machine learning
 
 # Unsupervised Learning
 
