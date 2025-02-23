@@ -531,7 +531,15 @@ $$
 
 ### Naive Bayes
 
-Naive Bayes is a supervised machine learning model which is used for classification tasks, based on calculated probabilities using Bayes Theorem
+Naive Bayes is a supervised machine learning model which is used for classification tasks, based on calculated probabilities using Bayes Theorem.
+
+#### Bayes Theorem
+
+Now, What is bayes Theorem
+
+$$
+\boldsymbol{P(A|B) = \frac{P(B|A) * P(A)}{P(B)}}
+$$
 
 # Unsupervised Learning
 
