@@ -535,7 +535,7 @@ Naive Bayes is a supervised machine learning model which is used for classificat
 
 #### Bayes Theorem
 
-Now, What is bayes Theorem
+Now, What is Bayes Theorem?
 
 Mathematical representation of Bayes Theorem,
 
