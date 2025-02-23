@@ -525,6 +525,10 @@ $$
 
 ![SVM Orange Worst Case Scenario](SVMOrangeWorstCase.png)
 
+$$
+\boldsymbol{Apple worst case scenario for Support Vector Machine}
+$$
+
 ### Naive Bayes
 
 Naive Bayes
