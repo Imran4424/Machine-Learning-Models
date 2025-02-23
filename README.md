@@ -560,6 +560,12 @@ $P(B|A)$ is the probability event B occuring given A has occured
 $B \cap A$ is the probability of insection of B and A which means probability of happening A and B at the same time
 $P(A)$ is the probability of event A occuring
 
+We all know that $A \cap B = B \cap A$, so we can write
+
+$$
+\boldsymbol{P(B|A) = \frac{A \cap B}{P(A)}}
+$$
+
 Mathematical representation of Bayes Theorem,
 
 $$
