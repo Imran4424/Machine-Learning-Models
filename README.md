@@ -531,7 +531,7 @@ $$
 
 ### Naive Bayes
 
-Naive Bayes is a supervised machine learning model which is used for a classification tasks
+Naive Bayes is a supervised machine learning model which is used for classification tasks
 
 # Unsupervised Learning
 
