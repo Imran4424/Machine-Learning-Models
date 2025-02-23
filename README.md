@@ -546,7 +546,7 @@ $$
 
 where,
 $P(A|B)$ is the probability event A occuring given B has occured
-$A \cap B$ is
+$A \cap B$ is the
 $P(B)$ is the probability of event B occuring
 
 Mathematical representation of Bayes Theorem,
