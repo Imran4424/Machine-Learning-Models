@@ -515,6 +515,8 @@ Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane 
 
 **What's so special about Support Vector Machines?**
 
+The best thing about support vector machine is
+
 ### Naive Bayes
 
 Naive Bayes
