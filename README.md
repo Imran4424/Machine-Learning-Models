@@ -546,7 +546,7 @@ $$
 Where,
 P(A|B) is the probability of the A given B
 P(B|A) is the probability of the B given A
-P(A) is the pro
+P(A) is the probabilities
 
 # Unsupervised Learning
 
