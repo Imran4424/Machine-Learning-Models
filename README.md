@@ -509,7 +509,7 @@ Any point in the Support Vector Machine model plot is a vector (2D or multi-dime
 ![Support Vectors](SupportVectorsClassification.png)
 
 **Maximum Margin Hyperplane**
-Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane which has equidistant from the nearest points of each classes.
+Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane with equidistant from each class's nearest points.
 
 ![Support Vectors](MaximumMarginHyperplane.png)
 
