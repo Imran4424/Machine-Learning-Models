@@ -520,13 +520,13 @@ The best aspect of the Support Vector Machine is that it always considers the wo
 ![SVM Apple Worst Case Scenario](SVMAppleWorstCase.png)
 
 $$
-\boldsymbol{Apple worst case scenario for Support Vector Machine}
+\textbf{Apple worst case scenario for Support Vector Machine}
 $$
 
 ![SVM Orange Worst Case Scenario](SVMOrangeWorstCase.png)
 
 $$
-\boldsymbol{Orange worst case scenario for Support Vector Machine}
+\textbf{Orange worst case scenario for Support Vector Machine}
 $$
 
 ### Naive Bayes
