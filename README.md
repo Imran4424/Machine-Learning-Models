@@ -518,6 +518,11 @@ Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane 
 The best aspect of the Support Vector Machine is that it always considers the worst-case scenario, thus accounting for the support vectors. Considering the worst-case scenario, it performs well even with small datasets compared to other machine learning models. This special property sets the Support Vector Machine apart from other Machine Learning models.
 
 ![SVM Apple Worst Case Scenario](SVMAppleWorstCase.png)
+
+$$
+\boldsymbol{Apple worst case scenario for Support Vector Machine}
+$$
+
 ![SVM Orange Worst Case Scenario](SVMOrangeWorstCase.png)
 
 ### Naive Bayes
