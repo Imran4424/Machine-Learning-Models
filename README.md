@@ -531,7 +531,7 @@ $$
 
 ### Naive Bayes
 
-Naive Bayes
+Naive Baye
 
 # Unsupervised Learning
 
