@@ -675,7 +675,7 @@ $$
 
 The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, the results are given in terms of “success” or “failure.”
 
-Now, let's see an example of classifying a dataset using
+Now, let's see an example of classifying a dataset using Decision Tree Classification
 
 ### Random Forest Classification
 
