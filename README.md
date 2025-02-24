@@ -586,10 +586,16 @@ To understand this model better, let's assume a scenario of two probabilistic ou
 
 ![Naive Bayes Dataset](NaiveBayesDataset.png)
 
-To classify this dataset, first we need to find $P(Walks | X)$
+To classify this dataset, first we need to find $P(Walks | X)$,
 
 $$
 P(Walks | X) = \frac{P(X | Walks) \cdot P(Walks)}{P(X)}
+$$
+
+And then we need to find $P(Drives | X)$,
+
+$$
+P(Drives | X) = \frac{P(X | Drives) \cdot P(Drives)}{P(X)}
 $$
 
 # Unsupervised Learning
