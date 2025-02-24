@@ -655,6 +655,26 @@ Between two choice in a decision tree if all the choices belong to one particula
 
 Between two choice in a decision tree if the choices are distributed among two choices equally then the entropy will be 1.
 
+#### Information Gain
+
+Information gain decides which feature to split at each step in building the tree. Creating sub-nodes increases homogeneity, decreasing the entropy of these nodes. The more homogeneous the child node, the more the variance will decrease after each split. Thus, Information Gain is the variance reduction and can be calculated by determining how much the variance decreases after each split.
+
+Information gain of a parent node can be calculated as the entropy of the parent node subtracted from the entropy of the weighted average of the child node.
+
+For a dataset with many features, each feature's information gain is calculated. The feature with maximum information gain will be the most important feature, the root node for the decision tree.
+
+#### Gini Index
+
+The Gini index can also be used for feature selection. The tree chooses the feature that minimizes the Gini impurity index. The higher value of the Gini Index indicates the impurity is higher. Both the Gini Index and Gini Impurity are used interchangeably. The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, it gives the results of “success” or “failure”.
+
+The Gini Index can be calculated by following formula
+
+$$
+\boldsymbol{Gini = 1 -\displaystyle\sum_{i=1}^{c}(P_i)^2}
+$$
+
+The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, the results are given in terms of “success” or “failure.”
+
 ### Random Forest Classification
 
 # Unsupervised Learning
