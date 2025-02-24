@@ -636,6 +636,17 @@ The values of the feature vectors linked to each data point are used for splitti
 
 The entropy of a dataset calculated by Shannon’s entropy formula
 
+$$
+\boldsymbol{E(S) = -\displaystyle\sum_{i=1}^{c}P_i log_2 P_i}
+$$
+
+where,
+E(S) is the entropy of the dataset.
+c is the number of unique classes in the dataset
+$P_i$ is the proportion of instances in class $i$
+
+Here,
+
 ### Random Forest Classification
 
 # Unsupervised Learning
