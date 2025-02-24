@@ -534,7 +534,7 @@ $$
 Naive Bayes is a supervised machine learning model which is used for classification tasks, based on calculated probabilities using Bayes Theorem.
 
 **Now, What is Bayes Theorem?**
-Bayes Theorem is mathematical formula to calculate conditional probability of an event occuring based on the fact the another event is already occuring.
+Bayes Theorem is a mathematical formula to calculate the conditional probability of an event occurring based on the fact that another event is already happening.
 
 The mathematical definition of conditional probability is for P(A|B)
 
@@ -543,9 +543,9 @@ $$
 $$
 
 where,
-$P(A|B)$ is the probability event A occuring given B has occured
+$P(A|B)$ is the probability event A occurring given B has occurred
 $A \cap B$ is the probability of insection of A and B which means probability of happening A and B at the same time
-$P(B)$ is the probability of event B occuring
+$P(B)$ is the probability of event B occurring
 
 The conditional probability for P(B|A) is
 
@@ -554,9 +554,9 @@ $$
 $$
 
 where,
-$P(B|A)$ is the probability event B occuring given A has occured
+$P(B|A)$ is the probability event B occurring given A has occurred
 $B \cap A$ is the probability of insection of B and A which means probability of happening A and B at the same time
-$P(A)$ is the probability of event A occuring
+$P(A)$ is the probability of event A occurring
 
 We all know that $A \cap B = B \cap A$, so we can write,
 
@@ -575,10 +575,10 @@ $$
 $$
 
 Where,
-$P(A|B)$ is the probability event A occuring given B has occured
-$P(B|A)$ is the probability event B occuring given A has occured
-$P(A)$ is the probability of event A occuring
-$P(B)$ is the probability of event B occuring
+$P(A|B)$ is the probability event A occurring given B has occurred
+$P(B|A)$ is the probability event B occurring given A has occurred
+$P(A)$ is the probability of event A occurring
+$P(B)$ is the probability of event B occurring
 
 Naive Bayes supervised machine learning model build upon this Bayes Theorem. That's why Naive Bayes is also called probabilistic machine learning model. Naive Bayes machine learning model use this conditional probabilistic calculation of features using Bayes Theorem for performing classification in the given dataset.
 
