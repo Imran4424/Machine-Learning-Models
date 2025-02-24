@@ -582,7 +582,7 @@ $P(B)$ is the probability of event B occuring
 
 Naive Bayes supervised machine learning model build upon this Bayes Theorem. That's why Naive Bayes is also called probabilistic machine learning model. Naive Bayes machine learning model use this conditional probabilistic calculation of features using Bayes Theorem for performing classification in the given dataset.
 
-To understand this model better, let's assume a scenario of two
+To understand this model better, let's assume a scenario of two probabilistic outcome walk to office or drive to office based on person's age and salary.
 
 # Unsupervised Learning
 
