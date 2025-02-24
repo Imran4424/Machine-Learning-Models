@@ -613,6 +613,10 @@ Real world Naive Bayes classification example,
 - Medical diagnosis 🏥
 - Text classification 📚
 
+### Decision Tree Classification
+
+### Random Forest Classification
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
