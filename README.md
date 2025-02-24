@@ -606,6 +606,13 @@ $$
 
 If $P(Walks | X)$ is greater than $P(Drives | X)$ then the person(new data point) will walk to the office otherwise that person will drive to office.
 
+Real world Naive Bayes classification example,
+
+- Spam detection 📩
+- Sentiment analysis 😊😡
+- Medical diagnosis 🏥
+- Text classification 📚
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
