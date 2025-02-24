@@ -598,6 +598,14 @@ $$
 P(Drives | X) = \frac{P(X | Drives) \cdot P(Drives)}{P(X)}
 $$
 
+Then we need to find
+
+$$
+P(Walks | X) \ v.s. \ P(Drives | X)
+$$
+
+If $P(Walks | X)$ is greater than $P(Drives | X)$ then the person(new data point) will walk to the office otherwise that person will drive to office.
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
