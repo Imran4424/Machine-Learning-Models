@@ -615,6 +615,8 @@ Real world Naive Bayes classification example,
 
 ### Decision Tree Classification
 
+Decision Tree Classification is a non-linear classification model that can handle complex datasets with complicated patterns. It classify the dataset using a tree-like model, making it flexible and easy to interpret.
+
 ### Random Forest Classification
 
 # Unsupervised Learning
