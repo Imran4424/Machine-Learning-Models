@@ -565,13 +565,13 @@ $$
 $$
 
 $$
-\boldsymbol{A \cap B = P(B|A) * P(A)}
+\boldsymbol{A \cap B = P(B|A) \cdot P(A)}
 $$
 
 By substituting $A \cap B$ in the conditional probability for $P(A|B)$ we get Mathematical representation of Bayes Theorem,
 
 $$
-\boldsymbol{P(A|B) = \frac{P(B|A) * P(A)}{P(B)}}
+\boldsymbol{P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}}
 $$
 
 Where,
@@ -583,6 +583,14 @@ $P(B)$ is the probability of event B occuring
 Naive Bayes supervised machine learning model build upon this Bayes Theorem. That's why Naive Bayes is also called probabilistic machine learning model. Naive Bayes machine learning model use this conditional probabilistic calculation of features using Bayes Theorem for performing classification in the given dataset.
 
 To understand this model better, let's assume a scenario of two probabilistic outcome walk to office or drive to office based on person's age and salary. There can be lot more features these two, for example, distance between house and office, is the person sick or not, own a car or not, etc. But for simplicity check, let's consider first mentioned two features.
+
+![Naive Bayes Dataset](NaiveBayesDataset.png)
+
+To classify this dataset, first we need to find $P(Walks | X)$
+
+$$
+P(Walks | X) = \frac{P(X | Walks) \cdot P(Walks)}{P(X)}
+$$
 
 # Unsupervised Learning
 
