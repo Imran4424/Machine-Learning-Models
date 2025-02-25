@@ -728,6 +728,16 @@ Multiple machine-learning model combinations can happen in the following ways.
 - Ensemble learning combining multiple models (individual different models)
 - Ensemble learning by combining the same model multiple times
 
+In random forest, we will use the later version of Ensemble Learning, which combines multiple decision tree models to improve dataset classification results, improving accuracy and decreasing overfitting compared to a single decision tree.
+
+We can build Random Forest Classification model using the following steps
+
+1. **Bootstrap Sampling:** Create multiple subsets of training data by randomly selecting samples with replacement.
+2. **Random Forest Construction:** Use the subsets of training data created in Step 1 to create decision trees. Each subset is used to train an independent Decision Tree, which uses a random subset of features to split nodes.
+3. **Prediction Aggregation:** The Random Forest Classification model takes the average of all individual tree classification (In terms of Ensemble Learning, this technique is called bagging).
+
+Mathematical formula for the Random Forest Model,
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
