@@ -748,8 +748,9 @@ $$
 
 where,
 T is the total number of decision trees in the forest
-$y_i$ is the prediction from the i-th Decision Tree Model
-$\hat{y}$ is the final prediction of the random forest
+$f_i$ is the classification result from the i-th Decision Tree Model
+$1(f_i(x) = c)$ condition, output will be 1 when result from $f_i(x)$ will be Similar to most common class.
+$\hat{y}$ is the final classification of the random forest based on Majority Voting
 
 # Unsupervised Learning
 
