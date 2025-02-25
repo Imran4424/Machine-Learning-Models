@@ -733,14 +733,17 @@ In random forest, we will use the later version of Ensemble Learning, which comb
 We can build Random Forest Classification model using the following steps
 
 1. **Bootstrap Sampling:** Create multiple subsets of training data by randomly selecting samples with replacement.
-2. **Random Forest Construction:** Use the subsets of training data created in Step 1 to create decision trees. Each subset is used to train an independent Decision Tree, which uses a random subset of features to split nodes.
-3. **Majority Voting:**
-4. **Prediction Aggregation:** The Random Forest Classification model takes the average of all individual tree classification (In terms of Ensemble Learning, this technique is called bagging).
+2. **Random Forest Construction:** Use the subsets of training data created in Step 1 to create decision trees. Each subset is used to train an independent Decision Tree, which uses a random subset of features to split nodes. This training process generates results for each model.
+3. **Majority Voting:** The final output is determined by combining classification results of all models through Majority Voting (Most common class).
 
-Mathematical formula for the Random Forest Model,
+Mathematical formula for the Random Forest Classification Model,
 
 $$
-\boldsymbol{\hat{y} = \frac{1}{T}\displaystyle\sum_{i=1}^{T}y_i}
+\boldsymbol{\hat{y} = model\{f_1(x), f_2(x),\dotsi,f_T(x)\}}
+$$
+
+$$
+\boldsymbol{\hat{y} = \arg \max_c \displaystyle\sum_{i=1}^{T}1(f_i(x) = c)}
 $$
 
 where,
