@@ -502,11 +502,11 @@ Real-world example of Logistic regression
 
 Support Vector Machine is a supervised machine learning model used for classification tasks. Support Vector Machines perform a classification tasks drawing a hyperplane. A hyperplane is a decision boundary that separates different classes. The goal is to find the optimal hyperplane (decision boundary) that maximizes the margin between classes. The optimal hyperplane(decision boundary) is searched through maximum margin which means the most optimal hyperplane will be equidistant from the nearest points of each class.
 
-![Hyperplane](DecisionBoundary.png)
+![Hyperplane](Images/SupportVector/DecisionBoundary.png)
 
 Any point in the Support Vector Machine model plot is a vector (2D or multi-dimensional based on the number of features). The nearest vectors to the hyperplane of each class are called support vectors because they dictate how the optimal hyperplane will be positioned. If we remove all other vectors except support vectors, the hyperplane will be the same for that dataset. Thus, this model is named Support Vector Machine.
 
-![Support Vectors](SupportVectorsClassification.png)
+![Support Vectors](Images/SupportVector/SupportVectorsClassification.png)
 
 **Maximum Margin Hyperplane**
 Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane with equidistant from each class's nearest points.
@@ -517,13 +517,13 @@ Maximum Margin Hyperplane (Maximum Margin Classifier) is the optimal hyperplane 
 
 The best aspect of the Support Vector Machine is that it always considers the worst-case scenario, thus accounting for the support vectors. Considering the worst-case scenario, it performs well even with small datasets compared to other machine learning models. This special property sets the Support Vector Machine apart from other Machine Learning models.
 
-![SVM Apple Worst Case Scenario](SVMAppleWorstCase.png)
+![SVM Apple Worst Case Scenario](Images/SupportVector/SVMAppleWorstCase.png)
 
 $$
 \textbf{Apple worst case scenario for Support Vector Machine}
 $$
 
-![SVM Orange Worst Case Scenario](SVMOrangeWorstCase.png)
+![SVM Orange Worst Case Scenario](Images/SupportVector/SVMOrangeWorstCase.png)
 
 $$
 \textbf{Orange worst case scenario for Support Vector Machine}
