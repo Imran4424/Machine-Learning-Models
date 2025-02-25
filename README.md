@@ -707,9 +707,11 @@ But for $X_1 >= 70$, data points still not classified, let's make the fourth spl
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit4.png)
 
-After making 4th split, now whole given dataset is classified,
+After making 4th split, now whole given dataset is classified, the complete classified decision tree is,
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree4.png)
+
+Decision Tree size will increase or decrease based on the dataset complexity. If dataset is complex(more heterogeneous dataset) then decision tree will be larger.
 
 ### Random Forest Classification
 
