@@ -752,6 +752,12 @@ $f_i$ is the classification result from the i-th Decision Tree Model
 $1(f_i(x) = c)$ condition, output will be 1 when result from $f_i(x)$ will be Similar to most common class.
 $\hat{y}$ is the final classification of the random forest based on Majority Voting
 
+**Real World Random Forest Classification Model Application**
+
+Microsoft used the Random Forest Classification model for detecting human body pose as a use case X-Box game controller.
+
+For detailed study the paper [Real-Time Human Pose Recognition](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/BodyPartRecognition.pdf)
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
