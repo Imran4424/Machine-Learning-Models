@@ -306,13 +306,13 @@ While the Linear Regression Model fits a straight line minimizing the squared er
 
 The Support Vector Regression Model fit a tube (known as $\epsilon$-insensitive tube)
 
-![Support Vector Regression](SupportVectorRegression.png)
+![Support Vector Regression](Images/SupportVector/SupportVectorRegression.png)
 
 This tube has a width of $\epsilon$ and the width is measured vertically along the axis not perpendicular to the tube but vertically. This tube itself is called the epsilon-insensitive tube. Any point in our dataset that falls inside the tube won't be disregarded as an error. This epsilon-insensitive tube works as a margin of error that we are allowing our model to have and does not care about any error inside here. Compared to the Linear Regression model, the Support Vector Regression model provides a bit of buffer through the epsilon-insensitive tube.
 
 At the same time, we also have points outside the epsilon-insensitive tube and for them, we do care about the error. The error will be measured as the distance between that point and the tube itself.
 
-![Support Vectors](SupportVectorRegression2.png)
+![Support Vectors](Images/SupportVector/SupportVectorRegression2.png)
 
 The point outside the epsilon-insensitive tube is dictating what the tube will look like, and how the tube will be positioned. Any point in the Support Vector Regression model plot is a vector (2D or multi-dimensional based on the number of features). The vector points that are outside the epsilon-insensitive tube are called support vectors because they are dictating how the tube will be positioned. Thus, this model is named Support Vector Regression.
 
