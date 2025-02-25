@@ -313,8 +313,6 @@ T is the total number of decision trees in the forest
 $y_i$ is the prediction from the i-th Decision Tree Model
 $\hat{y}$ is the final prediction of the random forest
 
-### Neural Network
-
 ## Classification
 
 Classification is a supervised machine learning technique where the goal is to indentify (predict) the category of new observations based on training data.
