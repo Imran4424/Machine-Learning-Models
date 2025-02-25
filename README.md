@@ -677,6 +677,16 @@ The Gini Index or Gini Impurity favors large partitions and is simple to impleme
 
 Now, let's see an example of classifying a dataset using Decision Tree Classification
 
+![Decision Tree Dataset](Images/DecisionTree/DecisionTreeClassifierDataset.png)
+
+Now, let's make the first split
+
+![Decision Tree Dataset](Images/DecisionTree/datasetSplit1.png)
+
+Based on the first split, decision tree will be
+
+![Decision Tree Dataset](Images/DecisionTree/datasetSplit1.png)
+
 ### Random Forest Classification
 
 # Unsupervised Learning
