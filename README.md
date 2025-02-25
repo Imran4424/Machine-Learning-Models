@@ -715,7 +715,7 @@ Decision Tree size will increase or decrease based on the dataset complexity. If
 
 ### Random Forest Classification
 
-Random Forest is nothing but collection of mutiple decision trees.
+Random Forest is nothing but a collection of multiple decision trees.
 
 Before talking more about Random Forest. Let's talk about Ensemble Learning
 
@@ -730,13 +730,13 @@ Multiple machine-learning model combinations can happen in the following ways.
 
 In random forest, we will use the later version of Ensemble Learning, which combines multiple decision tree models to improve dataset classification results, improving accuracy and decreasing overfitting compared to a single decision tree.
 
-We can build Random Forest Classification model using the following steps
+We can build a Random Forest Classification model using the following steps
 
-1. **Bootstrap Sampling:** Create multiple subsets of training data by randomly selecting samples with replacement.
+1. **Bootstrap Sampling:** Create multiple subsets of training data by randomly selecting samples with replacements.
 2. **Random Forest Construction:** Use the subsets of training data created in Step 1 to create decision trees. Each subset is used to train an independent Decision Tree, which uses a random subset of features to split nodes. This training process generates results for each model.
 3. **Majority Voting:** The final output is determined by combining classification results of all models through Majority Voting (Most common class).
 
-Mathematical formula for the Random Forest Classification Model,
+The Mathematical formula for the Random Forest Classification Model,
 
 $$
 \boldsymbol{\hat{y} = model\{f_1(x), f_2(x),\dotsi,f_T(x)\}}
