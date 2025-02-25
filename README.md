@@ -632,7 +632,7 @@ While building the Decision Tree, the below points are to be considered
 
 The provided dataset's disorder or impurity is measured by entropy.
 
-The values of the feature vectors linked to each data point are used for splitting the messy data in the decision tree. With each split, the data becomes more homogenous which will decrease the entropy. But in average case, some data in some nodes will not be homogenous and that will result into higher entropy values. With higher entropy it is really hard to classify the dataset (or sub-dataset for sub-trees). When the tree eventually reaches the terminal or leaf node, the highest level of purity is applied.
+The values of the feature vectors linked to each data point are used to split the messy data in the decision tree. With each split, the data becomes more homogenous which will decrease the entropy. But in the average case, some data in some nodes will not be homogenous and that will result in higher entropy values. With higher entropy, it is really hard to classify the dataset (or sub-dataset for sub-trees). When the tree eventually reaches the terminal or leaf node, the highest level of purity is applied.
 
 The entropy of a dataset calculated by Shannon’s entropy formula
 
@@ -651,9 +651,9 @@ $$
 \boldsymbol{P_i = \frac{\text{instances in class i}}{\text{total instances}}}
 $$
 
-Between two choice in a decision tree if all the choices belong to one particular choice then the entropy will be 0.
+Between two choices in a decision tree if all the choices belong to one particular choice then the entropy will be 0.
 
-Between two choice in a decision tree if the choices are distributed among two choices equally then the entropy will be 1.
+Between two choices in a decision tree if the choices are distributed among two choices equally then the entropy will be 1.
 
 #### Information Gain
 
@@ -667,7 +667,7 @@ For a dataset with many features, each feature's information gain is calculated.
 
 The Gini index can also be used for feature selection. The tree chooses the feature that minimizes the Gini impurity index. The higher value of the Gini Index indicates the impurity is higher. Both the Gini Index and Gini Impurity are used interchangeably. The Gini Index or Gini Impurity favors large partitions and is simple to implement. It performs only binary split. For categorical variables, it gives the results of “success” or “failure”.
 
-The Gini Index can be calculated by following formula
+The Gini Index can be calculated by following the formula
 
 $$
 \boldsymbol{Gini = 1 -\displaystyle\sum_{i=1}^{c}(P_i)^2}
@@ -683,15 +683,15 @@ Now, let's make the first split
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit1.png)
 
-Based on the first split, decision tree will be
+Based on the first split, the decision tree will be
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree1.png)
 
-Even after first split dataset is not classified yet, let's make another split
+Even after the first split dataset is not classified yet, let's make another split
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit2.png)
 
-After second split data point which have features $X_2$ >= 60 is classified. The points which are $X_1 < 50$ is green, which are $X_1 >= 50$ is red Decision tree will reach leaf node in this portion,
+After the second split data point which has features $X_2$ >= 60 is classified. The points which are $X_1 < 50$ is green, which are $X_1 >= 50$ is red Decision tree will reach the leaf node in this portion,
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree2.png)
 
