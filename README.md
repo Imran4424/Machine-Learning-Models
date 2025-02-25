@@ -715,6 +715,19 @@ Decision Tree size will increase or decrease based on the dataset complexity. If
 
 ### Random Forest Classification
 
+Random Forest is nothing but collection of mutiple decision trees.
+
+Before talking more about Random Forest. Let's talk about Ensemble Learning
+
+#### Ensemble Learning
+
+Ensemble Learning is a fantastic machine learning technique that combines multiple machine learning models to improve dataset classification results.
+
+Multiple machine-learning model combinations can happen in the following ways.
+
+- Ensemble learning combining multiple models (individual different models)
+- Ensemble learning by combining the same model multiple times
+
 # Unsupervised Learning
 
 Unsupervised Machine Learning Models
