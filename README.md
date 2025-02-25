@@ -300,7 +300,7 @@ The support Vector Regression Model is a special type of Support Vector Machine 
 
 While the Linear Regression Model fits a straight line minimizing the squared error(using ordinary least squared methods)
 
-![Linear Regression](LinearRegression.png)
+![Linear Regression](Images/LinearRegression.png)
 
 <!-- <img src="LinearRegression.png" alt="Linear Regression" width="80%" height="80%"> -->
 
