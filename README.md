@@ -685,7 +685,19 @@ Now, let's make the first split
 
 Based on the first split, decision tree will be
 
-![Decision Tree Dataset](Images/DecisionTree/datasetSplit1.png)
+![Decision Tree Dataset](Images/DecisionTree/DecisionTree1.png)
+
+Even after first split dataset is not classified yet, let's make another split
+
+![Decision Tree Dataset](Images/DecisionTree/datasetSplit2.png)
+
+After second split data point which have features $X_2$ >= 60 is classified. Decision tree will reach leaf node in this portion,
+
+![Decision Tree Dataset](Images/DecisionTree/DecisionTree2.png)
+
+But left subtree of root condition $X_2 < 60$ is still not classified, let's make further split,
+
+![Decision Tree Dataset](Images/DecisionTree/datasetSplit3.png)
 
 ### Random Forest Classification
 
