@@ -691,13 +691,25 @@ Even after first split dataset is not classified yet, let's make another split
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit2.png)
 
-After second split data point which have features $X_2$ >= 60 is classified. Decision tree will reach leaf node in this portion,
+After second split data point which have features $X_2$ >= 60 is classified. The points which are $X_1 < 50$ is green, which are $X_1 >= 50$ is red Decision tree will reach leaf node in this portion,
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree2.png)
 
 But left subtree of root condition $X_2 < 60$ is still not classified, let's make further split,
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit3.png)
+
+after making third split, data points which are $X_1 < 70$ classified as red,
+
+![Decision Tree Dataset](Images/DecisionTree/DecisionTree3.png)
+
+But for $X_1 >= 70$, data points still not classified, let's make the fourth split and see what happens,
+
+![Decision Tree Dataset](Images/DecisionTree/datasetSplit4.png)
+
+After making 4th split, now whole given dataset is classified,
+
+![Decision Tree Dataset](Images/DecisionTree/DecisionTree4.png)
 
 ### Random Forest Classification
 
