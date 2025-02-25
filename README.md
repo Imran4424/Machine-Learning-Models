@@ -176,15 +176,12 @@ $$
 $$
 
 Where,
-y = Dependent variable (Target variable which we are trying to predict)
 
-x = Independent variable (features / input variable)
-
-$\beta_0$ = intercept of the line (which adds additional degree of freedoom)
-
-$\beta_1$ = Linear Regression coefficient
-
-$\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
+- y = Dependent variable (Target variable which we are trying to predict)
+- x = Independent variable (features / input variable)
+- $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+- $\beta_1$ = Linear Regression coefficient
+- $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 There are two types of linear regression model based on the number of input variables
 
@@ -218,11 +215,12 @@ $$
 $$
 
 Where,
-y = Dependent variable (Target variable which we are trying to predict)
-$x_i$ = Independent variables (features / input variable)
-$\beta_0$ = intercept of the line (which adds additional degree of freedoom)
-$\beta_i$ = Linear Regression coefficients of their associated independent variables
-$\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
+
+- y = Dependent variable (Target variable which we are trying to predict)
+- $x_i$ = Independent variables (features / input variable)
+- $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+- $\beta_i$ = Linear Regression coefficients of their associated independent variables
+- $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 #### Linear Regression Examples
 
@@ -251,12 +249,13 @@ $$
 $$
 
 Where,
-y = Dependent variable (Target variable which we are trying to predict)
-$x$ = Independent variables (features / input variable)
-$n$ = The degree of the polynomial
-$\beta_0$ = intercept of the line (which adds additional degree of freedoom)
-$\beta_i$ = Coefficients of their polynomial terms
-$\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
+
+- y = Dependent variable (Target variable which we are trying to predict)
+- $x$ = Independent variables (features / input variable)
+- $n$ = The degree of the polynomial
+- $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+- $\beta_i$ = Coefficients of their polynomial terms
+- $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
 
 **When to use Polynomial Regression Model?**
 When the relationship between the dependent and independent variables is non-linear, we can not use simple and multiple linear regression to fit the data well. Then, we can use the Polynomial regression model. The best way to find out is by plotting x vs y. If the plotted graph shows parabolic, cubic, or other curved patterns, then the Polynomial Regression Model is a good choice.
@@ -269,10 +268,11 @@ $$
 $$
 
 where,
-BIC = Bayes Information Criteria
-k = number of parameter or chosen order the model to test
-n = number of data points
-$SS_\epsilon$ = Error Sum of Squares
+
+- BIC = Bayes Information Criteria
+- k = number of parameter or chosen order the model to test
+- n = number of data points
+- $SS_\epsilon$ = Error Sum of Squares
 
 The formula of $SS_\epsilon$ is:
 
@@ -281,8 +281,9 @@ $$
 $$
 
 where,
-$x_i$ = individual data points in the dataset.
-$\bar{x}$ = mean(average) of all data points
+
+- $x_i$ = individual data points in the dataset.
+- $\bar{x}$ = mean(average) of all data points
 
 $\bar{x}$ is calculated as following:
 
@@ -365,9 +366,10 @@ $$
 $$
 
 where,
-E(S) is the entropy of the dataset.
-c is the number of unique classes in the dataset
-$P_i$ is the proportion of instances in class $i$
+
+- E(S) is the entropy of the dataset.
+- c is the number of unique classes in the dataset
+- $P_i$ is the proportion of instances in class $i$
 
 Here,
 
@@ -429,9 +431,10 @@ $$
 $$
 
 where,
-T is the total number of decision trees in the forest
-$y_i$ is the prediction from the i-th Decision Tree Model
-$\hat{y}$ is the final prediction of the random forest
+
+- T is the total number of decision trees in the forest
+- $y_i$ is the prediction from the i-th Decision Tree Model
+- $\hat{y}$ is the final prediction of the random forest
 
 ### Neural Network
 
@@ -547,9 +550,10 @@ $$
 $$
 
 where,
-$P(A|B)$ is the probability event A occurring given B has occurred
-$A \cap B$ is the probability of insection of A and B which means probability of happening A and B at the same time
-$P(B)$ is the probability of event B occurring
+
+- $P(A|B)$ is the probability event A occurring given B has occurred
+- $A \cap B$ is the probability of insection of A and B which means probability of happening A and B at the same time
+- $P(B)$ is the probability of event B occurring
 
 The conditional probability for P(B|A) is
 
@@ -558,9 +562,10 @@ $$
 $$
 
 where,
-$P(B|A)$ is the probability event B occurring given A has occurred
-$B \cap A$ is the probability of insection of B and A which means probability of happening A and B at the same time
-$P(A)$ is the probability of event A occurring
+
+- $P(B|A)$ is the probability event B occurring given A has occurred
+- $B \cap A$ is the probability of insection of B and A which means probability of happening A and B at the same time
+- $P(A)$ is the probability of event A occurring
 
 We all know that $A \cap B = B \cap A$, so we can write,
 
@@ -579,10 +584,11 @@ $$
 $$
 
 Where,
-$P(A|B)$ is the probability event A occurring given B has occurred
-$P(B|A)$ is the probability event B occurring given A has occurred
-$P(A)$ is the probability of event A occurring
-$P(B)$ is the probability of event B occurring
+
+- $P(A|B)$ is the probability event A occurring given B has occurred
+- $P(B|A)$ is the probability event B occurring given A has occurred
+- $P(A)$ is the probability of event A occurring
+- $P(B)$ is the probability of event B occurring
 
 The Naive Bayes supervised machine learning model is based on Bayes' Theorem, which is why it is also referred to as a probabilistic machine learning model. The Naive Bayes model employs conditional probability calculations of features to classify data within a given dataset.
 
@@ -645,9 +651,10 @@ $$
 $$
 
 where,
-E(S) is the entropy of the dataset.
-c is the number of unique classes in the dataset
-$P_i$ is the proportion of instances in class $i$
+
+- E(S) is the entropy of the dataset.
+- c is the number of unique classes in the dataset
+- $P_i$ is the proportion of instances in class $i$
 
 Here,
 
@@ -751,10 +758,11 @@ $$
 $$
 
 where,
-T is the total number of decision trees in the forest
-$f_i$ is the classification result from the i-th Decision Tree Model
-$1(f_i(x) = c)$ condition, output will be 1 when result from $f_i(x)$ will be Similar to most common class.
-$\hat{y}$ is the final classification of the random forest based on Majority Voting
+
+- T is the total number of decision trees in the forest
+- $f_i$ is the classification result from the i-th Decision Tree Model
+- $1(f_i(x) = c)$ condition, output will be 1 when result from $f_i(x)$ will be similar to most common class.
+- $\hat{y}$ is the final classification of the random forest based on Majority Voting
 
 **Real World Random Forest Classification Model Application**
 
