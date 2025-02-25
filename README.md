@@ -584,7 +584,7 @@ The Naive Bayes supervised machine learning model is based on Bayes' Theorem, wh
 
 To understand this model better, let's assume a scenario of two probabilistic outcomes walk to the office or drive to the office based on a person's age and salary. There can be a lot more features than these two, for example, the distance between the house and the office, is the person sick or not, owns a car or not, etc. But for simplicity check, let's consider first mentioned two features.
 
-![Naive Bayes Dataset](NaiveBayesDataset.png)
+![Naive Bayes Dataset](Images/NaiveBayesDataset.png)
 
 To classify this dataset, first we need to find $P(Walks | X)$,
 
