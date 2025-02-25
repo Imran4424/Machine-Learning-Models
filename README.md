@@ -695,11 +695,11 @@ After the second split data point which has features $X_2$ >= 60 is classified. 
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree2.png)
 
-But left subtree of root condition $X_2 < 60$ is still not classified, let's make further split,
+But left subtree of the root condition $X_2 < 60$ is still not classified, let's make a further split,
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit3.png)
 
-after making third split, data points which are $X_1 < 70$ classified as red,
+after making the third split, data points that are $X_1 < 70$ classified as red,
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree3.png)
 
@@ -707,11 +707,11 @@ But for $X_1 >= 70$, data points still not classified, let's make the fourth spl
 
 ![Decision Tree Dataset](Images/DecisionTree/datasetSplit4.png)
 
-After making 4th split, now whole given dataset is classified, the complete classified decision tree is,
+After making the fourth split, now whole given dataset is classified, and the complete classified decision tree is,
 
 ![Decision Tree Dataset](Images/DecisionTree/DecisionTree4.png)
 
-Decision Tree size will increase or decrease based on the dataset complexity. If dataset is complex(more heterogeneous dataset) then decision tree will be larger.
+Decision Tree size will increase or decrease based on the dataset complexity. If the dataset is complex(more heterogeneous dataset) then the decision tree will be larger.
 
 ### Random Forest Classification
 
