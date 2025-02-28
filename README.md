@@ -772,7 +772,7 @@ For detailed study the paper [Real-Time Human Pose Recognition](https://www.micr
 
 # Unsupervised Learning
 
-Unsupervised Machine Learning Models.
+Unsupervised Machine Learning Models
 
 #### Clustering
 
