@@ -536,7 +536,7 @@ $$
 \textbf{Orange worst case scenario for Support Vector Machine}
 $$
 
-### Support Vector Machine Kernel trick
+### Support Vector Machine Kernel tricks
 
 ### Naive Bayes
 
