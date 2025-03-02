@@ -536,6 +536,8 @@ $$
 \textbf{Orange worst case scenario for Support Vector Machine}
 $$
 
+### Support Vector Machine Kernel trick
+
 ### Naive Bayes
 
 Naive Bayes is a supervised machine learning model which is used for classification tasks, based on calculated probabilities using Bayes Theorem.
