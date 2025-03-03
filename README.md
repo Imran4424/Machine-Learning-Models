@@ -538,6 +538,8 @@ $$
 
 ### Support Vector Machine Kernel tricks
 
+Kernel Support Vector Machine
+
 ### Naive Bayes
 
 Naive Bayes is a supervised machine learning model which is used for classification tasks, based on calculated probabilities using Bayes Theorem.
