@@ -538,6 +538,8 @@ $$
 
 ### Kernel Support Vector Machine
 
+Support Vector Machine
+
 Kernel Support Vector Machine
 
 ### Naive Bayes
