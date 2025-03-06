@@ -540,7 +540,7 @@ $$
 
 Support Vector Machine is a great supervised machine learning model for classification tasks only when given dataset is linearly separable.
 
-Kernel Support Vector Machine.....
+Kernel Support Vector Machine....
 
 ### Naive Bayes
 
