@@ -540,6 +540,8 @@ $$
 
 Support Vector Machine is a great supervised machine learning model for classification tasks only when the given dataset is linearly separable. But support vector machine is unable to classify the given dataset when dataset is not linearly separable.
 
+![Non Linear Dataset](Images/SupportVector/NonLinear.png)
+
 Kernel Support Vector Machine
 
 ### Naive Bayes
