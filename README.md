@@ -538,7 +538,7 @@ $$
 
 ### Kernel Support Vector Machine
 
-Support Vector Machine is a great supervised machine learning model for classification tasks only when given dataset is linearly separable. But support..
+Support Vector Machine is a great supervised machine learning model for classification tasks only when given dataset is linearly separable. But support
 
 Kernel Support Vector Machine
 
