@@ -542,7 +542,7 @@ Support Vector Machine is a great supervised machine learning model for classifi
 
 ![Non Linear Dataset](Images/SupportVector/NonLinear.png)
 
-Kernel Support Vector Machine
+Kernel Support Vector Machine is special
 
 ### Naive Bayes
 
