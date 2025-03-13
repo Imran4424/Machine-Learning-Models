@@ -542,7 +542,7 @@ Support Vector Machine is a great supervised machine learning model for classifi
 
 ![Non Linear Dataset](Images/SupportVector/NonLinear.png)
 
-Now we can add an extra dimention to this dataset to make the dataset linearly separable. A
+Now we can add an extra dimention to this dataset to make the dataset linearly separable.
 
 Kernel Support Vector Machine is special type of Support Vector machine model which can separable
 
