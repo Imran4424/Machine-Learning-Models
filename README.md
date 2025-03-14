@@ -544,7 +544,7 @@ Support Vector Machine is a great supervised machine learning model for classifi
 
 Now we can add an extra dimention to this dataset to make the dataset linearly separable.
 
-Kernel Support Vector Machine is special type of Support Vector machine model which can separable.
+Kernel Support Vector Machine is special type of Support Vector machine model which can separable
 
 ### Naive Bayes
 
