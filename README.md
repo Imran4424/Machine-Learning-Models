@@ -540,7 +540,7 @@ $$
 
 Support Vector Machine is a great supervised machine learning model for classification tasks only when the given dataset is linearly separable. But support vector machine is unable to classify the given dataset when dataset is not linearly separable.
 
-To solve this issue we can introduce a dimention to our dataset to make it linearly separable..
+To solve this issue we can introduce a dimention to our dataset to make it linearly separable...
 
 ![Non Linear Dataset](Images/SupportVector/NonLinear.png)
 
