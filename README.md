@@ -546,7 +546,7 @@ To solve this issue we can introduce an extra dimension to our space or dataset 
 
 Now we can add an extra dimention to this dataset to make the dataset linearly separable.
 
-Kernel Support Vector Machine is special type of Support Vector machine model which can separate.,,
+Kernel Support Vector Machine is special type of Support Vector machine model which can separate.,,,
 
 ### Naive Bayes
 
