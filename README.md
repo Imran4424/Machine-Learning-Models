@@ -544,13 +544,25 @@ $$
 
 Support Vector Machine is a great supervised machine learning model for classification tasks only when the given dataset is linearly separable. But support vector machine is unable to classify the given dataset when dataset is not linearly separable.
 
-To solve this issue we can introduce an extra dimension to our space or dataset to make it linearly separable.
-
 ![Non Linear Dataset](Images/SupportVector/NonLinear.png)
+
+To solve this issue we can introduce an extra dimension to our space or dataset to make it linearly separable.
 
 Now we can add an extra dimention to this dataset to make the dataset linearly separable.
 
-Kernel Support Vector Machine is special type of Support Vector machine model which can separate.
+![Extra Dimention Dataset](Images/SupportVector/SVMKernel.png)
+
+One issue is that, mapping to higher dimensional space can be highly compute-intensive.
+
+So, instead of introducing extra dimensions recursively and solve the non-separable dataset issue, we can follow an approach known in mathematics as Kernel tricks or Kernel functions.
+
+The kernel trick will help us get very similar results without having to go to a higher-dimensional space.
+
+The most popular types of Kernel functions are
+
+- Gaussian RBF Kernel
+- Sigmoid Kernel
+- Polynomial Kernel
 
 ### Naive Bayes
 
