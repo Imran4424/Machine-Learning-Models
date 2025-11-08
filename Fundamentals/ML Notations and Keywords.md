@@ -6,3 +6,5 @@ The hat matrix defined as below
 $$
 \boldsymbol{H = X (X^T X)^{-1} X^T}
 $$
+
+where X is the design matrix
