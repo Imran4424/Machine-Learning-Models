@@ -15,5 +15,9 @@ The design matrix or model matrix, X is a matrix of values of the independent (e
 
 #### Structure of the Design Matrix (\(\mathbf{X}\))
 
-#### Rows
+##### Rows
+
 Each row in the matrix corresponds to a single observation or data point (e.g., a single person in a study). The number of rows, denoted by \(n\), is the total number of observations.
+
+##### Columns
+
