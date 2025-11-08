@@ -8,3 +8,5 @@ $$
 $$
 
 where X is the design matrix
+
+### Design Matrix - X
