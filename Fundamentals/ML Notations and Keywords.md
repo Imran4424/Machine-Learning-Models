@@ -21,3 +21,4 @@ Each row in the matrix corresponds to a single observation or data point (e.g., 
 
 ##### Columns
 
+Each column corresponds to a specific variable or predictor in the model. The number of columns, denoted by \(p\), is the total number of parameters (including the intercept).
