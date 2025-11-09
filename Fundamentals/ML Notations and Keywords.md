@@ -85,3 +85,5 @@ The diagonal elements of the hat matrix ($h_{ii}$) are called leverages. They in
 Data points with high leverage can disproportionately influence the model's fit and are important to investigate for potential outliers.
 
 ### How  it is used
+
+##### Model diagnostics
