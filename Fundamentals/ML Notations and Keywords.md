@@ -51,6 +51,16 @@ The hat matrix uses the design matrix to project the vector of observed dependen
 ### Function and properties
 
 ##### Projection
+
+It projects the observed response vector ($y$) onto the column space of the design matrix ($X$), producing the vector of fitted values,
+
+$$
+\boldsymbol{\^y = Hy}
+$$
+
+where,
+$\boldsymbol{\^y}$ = 
+
 ##### Transforms data
 ##### Symmetric and idempotent
 ##### Leverage values
