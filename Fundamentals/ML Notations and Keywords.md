@@ -115,10 +115,10 @@ Where,
 
 - y = Dependent variable (Target variable which we are trying to predict)
 - x = Independent variable (features / input variable)
-- $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+- $\beta_0$ = intercept of the line (which adds additional degree of freedom)
 - $\beta_1$ = Linear Regression coefficient
 
 
 ### Calculate residuals
 
-
+For each data point, a residual is the difference between the actual value ($y_{i}$) and the predicted value ($\^{y}_{i}$) from the line.
