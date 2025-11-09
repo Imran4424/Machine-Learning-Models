@@ -71,7 +71,10 @@ It turns observed values into predicted values through the **linear least square
 
 The hat matrix is symmetric and idempotent, meaning,
 
-
+$$
+\boldsymbol{H ^ T = H} \\
+\boldsymbol{H ^ 2 = H}
+$$
 
 
 ##### Leverage values
