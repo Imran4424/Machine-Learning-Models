@@ -112,7 +112,6 @@ $$
 $$
 
 Where,
-
 - y = Dependent variable (Target variable which we are trying to predict)
 - x = Independent variable (features / input variable)
 - $\beta_0$ = intercept of the line (which adds additional degree of freedom)
@@ -128,3 +127,4 @@ $$
 \boldsymbol{ RSS = SSE = \sum_{i = 1}^{n} (y_i - \^y_i)^2}
 $$
 
+Where,
