@@ -101,3 +101,4 @@ By analyzing leverage values, analysts can identify individual data points that 
 
 # Ordinary Least of Squares (OLS)
 
+Ordinary Least of Squares (OLS) is a statistical method.
