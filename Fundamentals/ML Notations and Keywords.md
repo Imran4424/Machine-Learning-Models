@@ -36,4 +36,5 @@ $$
 \right)
 $$
 
-##### First Column
+##### First Column (Intercept)
+
