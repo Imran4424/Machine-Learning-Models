@@ -105,4 +105,16 @@ Ordinary Least of Squares (OLS) is a statistical method which is a type of linea
 
 Ordinary Least Squares (OLS) is used in linear regression to find the best-fitting straight line through a set of data points by minimizing the sum of the squared vertical distances between the data points and the line. It is a fundamental technique for estimating the parameters of a linear regression model, allowing for predictions of a dependent variable based on one or more independent variables.
 
-Ordinary Least of Squares (OLS) starts with a linear model
+Ordinary Least of Squares (OLS) starts with a linear model, which can represented by the following equation for a single independent variable,
+
+$$
+\boldsymbol{y = \beta_0 + \beta_1 x + \epsilon}
+$$
+
+Where,
+
+- y = Dependent variable (Target variable which we are trying to predict)
+- x = Independent variable (features / input variable)
+- $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
+- $\beta_1$ = Linear Regression coefficient
+- $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
