@@ -123,3 +123,8 @@ Where,
 The core principle of Ordinary Least of Squares (OLS) is to minimize the residual sum of squares (RSS), also known as the sum of squared errors (SSE). The residual is the difference between the actual observed value and the value predicted by the regression line. Squaring these differences prevents them from canceling out and gives more weight to larger errors
 
 To calculate the Residual Sum of Squares (RSS), also known as the Sum of Squared Errors (SSE)
+
+$$
+\boldsymbol{ RSS = SSE = \sum_{i = 1}^{n} (y_i - \^y_i)^2}
+$$
+
