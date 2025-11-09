@@ -119,6 +119,8 @@ Where,
 - $\beta_1$ = Linear Regression coefficient
 
 
+The core principle of OLS is to minimize the residual sum of squares (RSS), also known as the sum of squared errors (SSE).
+
 ### Calculate residuals
 
 For each data point, a residual is the difference between the actual value ($y_{i}$) and the predicted value ($\^{y}_{i}$) from the line.
