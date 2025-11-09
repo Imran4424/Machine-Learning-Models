@@ -68,6 +68,9 @@ $\boldsymbol{H}$ = Hat matrix
 It turns observed values into predicted values through the **linear least squares method**.
 
 ##### Symmetric and idempotent
+
+The hat matrix is symmetric and idempotent, meaning
+
 ##### Leverage values
 ##### High leverage
 
