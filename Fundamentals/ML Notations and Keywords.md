@@ -69,7 +69,10 @@ It turns observed values into predicted values through the **linear least square
 
 ##### Symmetric and idempotent
 
-The hat matrix is symmetric and idempotent, meaning
+The hat matrix is symmetric and idempotent, meaning,
+
+
+
 
 ##### Leverage values
 ##### High leverage
