@@ -24,3 +24,14 @@ Each row in the matrix corresponds to a single observation or data point (e.g., 
 Each column corresponds to a specific variable or predictor in the model. The number of columns, denoted by \(p\), is the total number of parameters (including the intercept).
 
 For a typical multiple linear regression model that includes an intercept term, the design matrix is structured as follows: 
+
+$$
+\mathbf{X} = \left(
+\begin{matrix}
+1 & x_{11} & x_{12} & \dots & x_{1,p-1} \\ 
+1 & x_{21} & x_{22} & \dots & x_{2,p-1} \\ 
+\vdots & \vdots & \vdots & \ddots & \vdots \\ 
+1 & x_{n1} & x_{n2} & \dots & x_{n,p-1}
+\end{matrix}
+\right)
+$$
