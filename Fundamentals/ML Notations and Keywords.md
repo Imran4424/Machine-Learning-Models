@@ -14,7 +14,7 @@ where X is the design matrix
 
 The design matrix or model matrix, X is a matrix of values of the independent (explanatory or predictor) variables for all the observations in the dataset.
 
-#### Structure of the Design Matrix ($\mathbf{X}$)
+#### Structure of the Design Matrix ($\boldsymbol{X}$)
 
 ##### Rows
 
@@ -43,7 +43,7 @@ The first column is typically a column of ones. This allows the model to estimat
 
 ##### Subsequent Columns
 
-The remaining columns contain the actual observed values for each independent variable (e.g., \(x_{1},x_{2},\dots ,x_{p-1}\))
+The remaining columns contain the actual observed values for each independent variable (e.g., $x_{1},x_{2},\dots ,x_{p-1}$)
 
 ### Role in the Hat Matrix
 
