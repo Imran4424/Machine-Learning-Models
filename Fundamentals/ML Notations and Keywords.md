@@ -60,9 +60,9 @@ $$
 $$
 
 where,
-$\boldsymbol{\^y}$ = Predicted values
-$\boldsymbol{y}$ = Observed values
-$\boldsymbol{H}$ = Hat matrix
+- $\boldsymbol{\^y}$ = Predicted values
+- $\boldsymbol{y}$ = Observed values
+- $\boldsymbol{H}$ = Hat matrix
 
 ##### Transforms data
 
