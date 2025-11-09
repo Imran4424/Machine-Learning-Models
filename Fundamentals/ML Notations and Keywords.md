@@ -119,7 +119,7 @@ Where,
 - $\beta_1$ = Linear Regression coefficient
 
 
-The core principle of OLS is to minimize the residual sum of squares (RSS), also known as the sum of squared errors (SSE).
+The core principle of Ordinary Least of Squares (OLS) is to minimize the residual sum of squares (RSS), also known as the sum of squared errors (SSE).
 
 ### Calculate residuals
 
