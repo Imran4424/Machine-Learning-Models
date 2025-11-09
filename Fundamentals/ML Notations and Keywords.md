@@ -87,5 +87,8 @@ Data points with high leverage can disproportionately influence the model's fit 
 ### How  it is used
 
 ##### Model diagnostics
+
+The hat matrix is a key tool for diagnosing the quality and stability of a regression model.
+
 ##### Outlier detection
 ##### Simplifies calculations
