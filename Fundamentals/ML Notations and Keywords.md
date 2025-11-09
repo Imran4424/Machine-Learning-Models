@@ -40,3 +40,4 @@ $$
 The first column is typically a column of ones. This allows the model to estimate a y-intercept ($\beta_0$)
 
 ##### Subsequent Columns
+The remaining columns contain the actual observed values for each independent variable (e.g., \(x_{1},x_{2},\dots ,x_{p-1}\))
