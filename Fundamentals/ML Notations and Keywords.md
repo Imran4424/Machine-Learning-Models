@@ -95,3 +95,5 @@ The hat matrix is a key tool for diagnosing the quality and stability of a regre
 By analyzing leverage values, analysts can identify individual data points that have a strong influence on the model's results.
 
 ##### Simplifies calculations
+
+ It provides a way to calculate predicted values directly from the observed data, without needing to re-compute the regression coefficients each time.
