@@ -48,3 +48,4 @@ The remaining columns contain the actual observed values for each independent va
 
 The hat matrix uses the design matrix to project the vector of observed dependent variable values ($\mathbf{y}$) onto the column space of $\mathbf{X}$ to obtain the predicted values ($\^{\mathbf{y}}$). It encapsulates all the information about the design of the experiment and the relationships between the predictor variables.
 
+### Function and properties
