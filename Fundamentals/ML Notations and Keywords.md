@@ -76,8 +76,10 @@ $$
 \boldsymbol{H ^ 2 = H}
 $$
 
-
 ##### Leverage values
+
+The diagonal elements of the hat matrix (\(h_{ii}\)) are called leverages. They indicate the influence of the \(i\)-th observation on its own predicted value.
+
 ##### High leverage
 
 ### How  it is used
