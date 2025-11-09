@@ -59,7 +59,9 @@ $$
 $$
 
 where,
-$\boldsymbol{\^y}$ = 
+$\boldsymbol{\^y}$ = Predicted values
+$\boldsymbol{y}$ = Observed values
+$\boldsymbol{H}$ = Hat matrix
 
 ##### Transforms data
 ##### Symmetric and idempotent
