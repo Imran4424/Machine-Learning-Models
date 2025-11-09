@@ -37,4 +37,4 @@ $$
 $$
 
 ##### First Column (Intercept)
-
+The first column is typically a column of ones. This allows the model to estimate a y-intercept ($\beta_0$)
