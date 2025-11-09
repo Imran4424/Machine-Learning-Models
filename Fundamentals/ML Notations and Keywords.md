@@ -37,7 +37,13 @@ $$
 $$
 
 ##### First Column (Intercept)
+
 The first column is typically a column of ones. This allows the model to estimate a y-intercept ($\beta_0$)
 
 ##### Subsequent Columns
+
 The remaining columns contain the actual observed values for each independent variable (e.g., \(x_{1},x_{2},\dots ,x_{p-1}\))
+
+### Role in the Hat Matrix
+
+The hat matrix uses the design matrix to project the vector of observed dependent variable values ($\mathbf{y}$) onto the column space of $\mathbf{X}$ to obtain the predicted values ($\^{\mathbf{y}}$). It encapsulates all the information about the design of the experiment and the relationships between the predictor variables.
