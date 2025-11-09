@@ -53,5 +53,7 @@ The hat matrix uses the design matrix to project the vector of observed dependen
 ##### Projection
 ##### Transforms data
 ##### Symmetric and idempotent
+##### Leverage values
+##### High leverage
 
 ### How  it is used
