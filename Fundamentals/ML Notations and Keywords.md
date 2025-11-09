@@ -97,3 +97,7 @@ By analyzing leverage values, analysts can identify individual data points that 
 ##### Simplifies calculations
 
  It provides a way to calculate predicted values directly from the observed data, without needing to re-compute the regression coefficients each time.
+
+
+# Ordinary Least of Squares (OLS)
+
