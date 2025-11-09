@@ -118,9 +118,9 @@ Where,
 - $\beta_0$ = intercept of the line (which adds additional degree of freedom)
 - $\beta_1$ = Linear Regression coefficient
 
+### Calculate residuals
 
 The core principle of Ordinary Least of Squares (OLS) is to minimize the residual sum of squares (RSS), also known as the sum of squared errors (SSE). The residual is the difference between the actual observed value and the value predicted by the regression line. Squaring these differences prevents them from canceling out and gives more weight to larger errors
 
-### Calculate residuals
 
-For each data point, a residual is the difference between the actual value ($y_{i}$) and the predicted value ($\^{y}_{i}$) from the line. 
+
