@@ -103,4 +103,4 @@ By analyzing leverage values, analysts can identify individual data points that 
 
 Ordinary Least of Squares (OLS) is a statistical method which is a type of linear least squares method for choosing the unknown parameters in a linear regression model.
 
-Ordinary Least Squares (OLS) is used in linear regression to find the best-fitting straight line through a set of data points by minimizing the sum of the squared vertical distances between the data points and the line. It is a fundamental technique for estimating the parameters of a linear regression model, allowing for predictions of a dependent variable based on one or more independent variables. 
+Ordinary Least Squares (OLS) is used in linear regression to find the best-fitting straight line through a set of data points by minimizing the sum of the squared vertical distances between the data points and the line. It is a fundamental technique for estimating the parameters of a linear regression model, allowing for predictions of a dependent variable based on one or more independent variables.
