@@ -131,3 +131,5 @@ Where,
 - $n$ is the number of observations in the dataset.
 - $y_i$ is the actual (observed) value of the dependent variable for the $i$-th observation.
 - $\^y_i$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
+
+# Rank of a matrix
