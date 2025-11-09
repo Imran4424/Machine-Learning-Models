@@ -87,3 +87,5 @@ Data points with high leverage can disproportionately influence the model's fit 
 ### How  it is used
 
 ##### Model diagnostics
+##### Outlier detection
+##### Simplifies calculations
