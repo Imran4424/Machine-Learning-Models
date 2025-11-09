@@ -14,7 +14,7 @@ where X is the design matrix
 
 The design matrix or model matrix, X is a matrix of values of the independent (explanatory or predictor) variables for all the observations in the dataset.
 
-#### Structure of the Design Matrix (\(\mathbf{X}\))
+#### Structure of the Design Matrix ($\mathbf{X}$)
 
 ##### Rows
 
