@@ -125,12 +125,12 @@ The core principle of Ordinary Least of Squares (OLS) is to minimize the residua
 To calculate the Residual Sum of Squares (RSS), also known as the Sum of Squared Errors (SSE)
 
 $$
-\boldsymbol{ RSS = SSE = \sum_{i = 1}^{n} (y_i - \^y_i)^2}
+\boldsymbol{ RSS = SSE = \sum_{i = 1}^{n} (y_i - \hat{y_i})^2}
 $$
 
 Where,
 - $n$ is the number of observations in the dataset.
 - $y_i$ is the actual (observed) value of the dependent variable for the $i$-th observation.
-- $\^y_i$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
+- $\hat{y_i}$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
 
 # Rank of a matrix
