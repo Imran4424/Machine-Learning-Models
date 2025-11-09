@@ -108,7 +108,7 @@ Ordinary Least Squares (OLS) is used in linear regression to find the best-fitti
 Ordinary Least of Squares (OLS) starts with a linear model, which can represented by the following equation for a single independent variable,
 
 $$
-\boldsymbol{y = \beta_0 + \beta_1 x + \epsilon}
+\boldsymbol{y = \beta_0 + \beta_1 x}
 $$
 
 Where,
@@ -117,4 +117,3 @@ Where,
 - x = Independent variable (features / input variable)
 - $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 - $\beta_1$ = Linear Regression coefficient
-- $\epsilon$ = Error of estimation (difference between observed income and the income regression predicted)
