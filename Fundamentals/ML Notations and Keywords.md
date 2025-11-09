@@ -50,4 +50,4 @@ The hat matrix uses the design matrix to project the vector of observed dependen
 
 ### Function and properties
 
-### Function and properties
+### How  it is used
