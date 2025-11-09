@@ -64,6 +64,9 @@ $\boldsymbol{y}$ = Observed values
 $\boldsymbol{H}$ = Hat matrix
 
 ##### Transforms data
+
+It turns observed values into predicted values through the **linear least squares method**.
+
 ##### Symmetric and idempotent
 ##### Leverage values
 ##### High leverage
