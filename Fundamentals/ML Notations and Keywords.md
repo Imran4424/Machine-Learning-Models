@@ -117,3 +117,7 @@ Where,
 - x = Independent variable (features / input variable)
 - $\beta_0$ = intercept of the line (which adds additional degree of freedoom)
 - $\beta_1$ = Linear Regression coefficient
+
+
+### Calculate residuals
+
