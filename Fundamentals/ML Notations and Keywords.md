@@ -133,7 +133,6 @@ Where,
 - $y_i$ is the actual (observed) value of the dependent variable for the $i$-th observation.
 - $\hat{y_i}$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
 
-# Rank of a matrix
 # Rank of a Matrix
 
 The rank of a matrix is the maximum number of linearly independent rows or columns in the matrix.
