@@ -134,3 +134,52 @@ Where,
 - $\hat{y_i}$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
 
 # Rank of a matrix
+# Rank of a Matrix
+
+The rank of a matrix is the maximum number of linearly independent rows or columns in the matrix.
+
+It is also equal to the number of non-zero rows in the matrix after it has been reduced to echelon form.
+
+### Row Echelon form of Matrix
+
+Row Echelon form is a way of transforming a matrix into a simpler, staircase-like structure through a series of elementary row operations, a process called Gaussian elimination.
+
+
+##### Properties of a matrix in row echelon form
+
+- Zero rows at the bottom: Any row that consists entirely of zeros is located at the bottom of the matrix, below all rows with non-zero entries.
+- If a row does not consist entirely of zeros, then the first nonzero number in the row is a 1. In other deifinitions the first non-zero being 1 is not must.
+- Staircase pattern: In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs further to the right than the leading 1 in the higher row.
+- Row echelon form is not unique
+- Reduced Row echelon form is unique
+
+
+#### Reduced Row Echelon form of Matrix
+
+Reduced row echelon form (RREF) is a specific form of a matrix where each leading entry is a \(1\), and all other entries in a pivot column (the column with a leading \(1\)) are zeros. 
+
+To achieve RREF, a matrix must first be in row echelon form, and then additional steps are taken to make pivots into \(1\)s and clear the entries above them, in addition to the zeros below them. 
+
+This form is a unique, simplified representation of a matrix, often used to solve systems of linear equations.
+
+- Zero rows at the bottom: Any row that consists entirely of zeros is located at the bottom of the matrix, below all rows with non-zero entries.
+- If a row does not consist entirely of zeros, then the first nonzero number in the row must be 1.
+- Staircase pattern: In any two successive rows that do not consist entirely of zeros, the leading 1 in the lower row occurs further to the right than the leading 1 in the higher row.
+- Each column containing a leading 1 has zeros in all its other entries.
+- Reduced Row echelon form is unique.
+
+### Key Concepts
+
+- Linear Independence: The rank represents the number of vectors (rows or columns) that are not scalar multiples of each other. If the rank is \(r\), there are \(r\) linearly independent rows and \(r\) linearly independent columns.
+- Dimension: The rank is the dimension of the vector space spanned by the rows or the columns of the matrix.
+- Minor: The rank is the order of the largest square sub-matrix (minor) that has a non-zero determinant. 
+
+## How to find the rank
+
+### Step 1: Reduce to Echelon Form (Row Echelon Form)
+
+Use elementary row operations to transform the matrix into its echelon form. This involves using row replacement to create zeros below the "leading" non-zero entry (called a pivot) in each row.
+
+### Step 2: Count Non-Zero Rows
+
+Once the matrix is in echelon form, count the number of rows that contain at least one non-zero element. This number is the rank of the matrix.
