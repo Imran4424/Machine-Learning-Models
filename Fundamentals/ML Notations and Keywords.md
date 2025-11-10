@@ -155,7 +155,7 @@ Row Echelon form is a way of transforming a matrix into a simpler, staircase-lik
 
 #### Reduced Row Echelon form of Matrix
 
-Reduced row echelon form (RREF) is a specific form of a matrix where each leading entry is a \(1\), and all other entries in a pivot column (the column with a leading \(1\)) are zeros. 
+Reduced row echelon form (RREF) is a specific form of a matrix where each leading entry is a $1$, and all other entries in a pivot column (the column with a leading $1$) are zeros. 
 
 To achieve RREF, a matrix must first be in row echelon form, and then additional steps are taken to make pivots into \(1\)s and clear the entries above them, in addition to the zeros below them. 
 
