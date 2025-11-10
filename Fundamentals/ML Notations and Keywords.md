@@ -157,7 +157,7 @@ Row Echelon form is a way of transforming a matrix into a simpler, staircase-lik
 
 Reduced row echelon form (RREF) is a specific form of a matrix where each leading entry is a $1$, and all other entries in a pivot column (the column with a leading $1$) are zeros. 
 
-To achieve RREF, a matrix must first be in row echelon form, and then additional steps are taken to make pivots into \(1\)s and clear the entries above them, in addition to the zeros below them. 
+To achieve RREF, a matrix must first be in row echelon form, and then additional steps are taken to make pivots into $1$s and clear the entries above them, in addition to the zeros below them. 
 
 This form is a unique, simplified representation of a matrix, often used to solve systems of linear equations.
 
@@ -169,7 +169,7 @@ This form is a unique, simplified representation of a matrix, often used to solv
 
 ### Key Concepts
 
-- Linear Independence: The rank represents the number of vectors (rows or columns) that are not scalar multiples of each other. If the rank is \(r\), there are \(r\) linearly independent rows and \(r\) linearly independent columns.
+- Linear Independence: The rank represents the number of vectors (rows or columns) that are not scalar multiples of each other. If the rank is $r$, there are $r$ linearly independent rows and $r$ linearly independent columns.
 - Dimension: The rank is the dimension of the vector space spanned by the rows or the columns of the matrix.
 - Minor: The rank is the order of the largest square sub-matrix (minor) that has a non-zero determinant. 
 
