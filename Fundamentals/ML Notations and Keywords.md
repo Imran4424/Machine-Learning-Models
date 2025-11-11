@@ -190,5 +190,5 @@ The leave-one-out (LOO) formula calculates the average error across all possible
 The general formula for LOO cross-validation error is the average of the squared errors for each left-out point:
 
 $$
-\boldsymbol{LOO-SE}
+\boldsymbol{LOO-SE = \frac{1}{N} \sum_{i = 1}^{N} (y_i - \hat{y_i})^2}
 $$
