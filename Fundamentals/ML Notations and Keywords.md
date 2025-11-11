@@ -229,3 +229,12 @@ In linear algebra, an invertible matrix (non-singular, non-degenerate or regular
 
 # Sherman–Morrison Formula
 
+The Sherman–Morrison formula is an identity in linear algebra that computes the inverse of a matrix that has been subjected to a rank-one update.
+
+It provides an efficient way to calculate the inverse of a perturbed matrix $A + \mathbf{u}\mathbf{v}^T$, given the inverse of the original matrix $A$. Computing the inverse using this formula is significantly cheaper (computationally) than recalculating the inverse from scratch, especially for large matrices.
+
+For details for the below links
+
+[Wiki link](https://en.wikipedia.org/wiki/Sherman%E2%80%93Morrison_formula)
+[Youtube Link](https://www.youtube.com/watch?v=gF-5VElceCU)
+[Cornell University Link](https://www.cs.cornell.edu/~bindel/class/cs6210-f09/lec12.pdf)
