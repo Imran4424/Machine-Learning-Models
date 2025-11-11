@@ -199,3 +199,5 @@ where,
 - $\hat{y_i}$ is the predicted value of the $i$-th observation
 
 # Prediction Residual Sum of Squares (PRESS)
+
+Prediction Residual Sum of Squares (PRESS) is a cross-validation technique used in regression to measure how well a model fits new data not used in its training.
