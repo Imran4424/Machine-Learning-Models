@@ -200,4 +200,4 @@ where,
 
 # Prediction Residual Sum of Squares (PRESS)
 
-Prediction Residual Sum of Squares (PRESS) is a cross-validation technique used in regression to measure how well a model can predict a new data which is not used in its training.
+Prediction Residual Sum of Squares (PRESS) is a cross-validation technique used in regression to measure how well a model can predict a new data which is not been used in its training.
