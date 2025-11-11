@@ -195,3 +195,4 @@ $$
 
 where,
 - N is the total number of observations
+- $y_i$ is the actual value of the $i$-th observation
