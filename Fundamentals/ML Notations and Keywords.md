@@ -218,3 +218,6 @@ where,
 
 ### Why it's useful
 
+- **Predictive power:** PRESS is a measure of a model's predictive accuracy on new, unseen data.
+- **Model comparison:** It can be used to compare different models, with the model that has a lower PRESS value being a better predictor.
+- **Overfitting detection:** A large difference between the standard residual sum of squares (RSS) and PRESS can signal that a model may be overfitted to the original training data. 
