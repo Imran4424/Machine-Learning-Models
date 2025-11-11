@@ -227,5 +227,5 @@ where,
 
 In linear algebra, an invertible matrix (non-singular, non-degenerate or regular) is a square matrix that has an inverse. In other words, if a matrix is invertible, it can be multiplied by another matrix to yield the identity matrix. Invertible matrices are the same size as their inverse.
 
-
 # Sherman–Morrison Formula
+
