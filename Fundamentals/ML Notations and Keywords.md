@@ -183,4 +183,4 @@ Use elementary row operations to transform the matrix into its echelon form. Thi
 
 Once the matrix is in echelon form, count the number of rows that contain at least one non-zero element. This number is the rank of the matrix.
 
-# Leave one out formula
+# Leave one out(LOO) formula
