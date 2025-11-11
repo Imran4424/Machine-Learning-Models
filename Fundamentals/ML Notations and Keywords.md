@@ -223,4 +223,9 @@ where,
 - **Overfitting detection:** A large difference between the standard residual sum of squares (RSS) and PRESS can signal that a model may be overfitted to the original training data.
 
 
+# Invertible Matrix
+
+In linear algebra, an invertible matrix (non-singular, non-degenerate or regular) is a square matrix that has an inverse. In other words, if a matrix is invertible, it can be multiplied by another matrix to yield the identity matrix. Invertible matrices are the same size as their inverse.
+
+
 # Sherman–Morrison Formula
