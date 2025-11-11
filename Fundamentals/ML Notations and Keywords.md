@@ -187,3 +187,4 @@ Once the matrix is in echelon form, count the number of rows that contain at lea
 
 The leave-one-out (LOO) formula calculates the average error across all possible models, each trained by leaving a single data point out.
 
+The general formula for LOO cross-validation error is the average of the squared errors for each left-out point:
