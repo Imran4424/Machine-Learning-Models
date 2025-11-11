@@ -129,6 +129,7 @@ $$
 $$
 
 Where,
+
 - $n$ is the number of observations in the dataset.
 - $y_i$ is the actual (observed) value of the dependent variable for the $i$-th observation.
 - $\hat{y_i}$ is the predicted value of the dependent variable for the $i$-th observation from the regression model.
@@ -194,6 +195,7 @@ $$
 $$
 
 where,
+
 - N is the total number of observations
 - $y_i$ is the actual value of the $i$-th observation
 - $\hat{y_i}$ is the predicted value of the $i$-th observation
@@ -207,3 +209,7 @@ A lower PRESS value indicates a better fit, with a perfect fit having a PRESS of
 $$
 \boldsymbol{PRESS = \sum_{i = 1}^{N} (y_i - \hat{y}_{i(-i)})^2}
 $$
+
+where,
+
+-  
