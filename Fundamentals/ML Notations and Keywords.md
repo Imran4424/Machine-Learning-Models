@@ -182,3 +182,5 @@ Use elementary row operations to transform the matrix into its echelon form. Thi
 ### Step 2: Count Non-Zero Rows
 
 Once the matrix is in echelon form, count the number of rows that contain at least one non-zero element. This number is the rank of the matrix.
+
+# Leave one out formula
