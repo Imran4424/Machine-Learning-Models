@@ -212,4 +212,6 @@ $$
 
 where,
 
--  
+- N is the total number of observations
+- $y_i$ is the actual value of the $i$-th observation
+- $\hat{y_i}$ is the predicted value of the $i$-th observation
