@@ -215,3 +215,6 @@ where,
 - N is the total number of observations
 - $y_i$ is the actual value of the $i$-th observation
 - $\hat{y}_{i(-i)}$ is the predicted value of the $i$-th observation by the model previously trained(that was fitted to all data points except the $i$-th observation.)
+
+### Why it's useful
+
