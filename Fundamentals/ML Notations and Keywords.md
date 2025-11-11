@@ -192,3 +192,6 @@ The general formula for LOO cross-validation error is the average of the squared
 $$
 \boldsymbol{LOO-SE = \frac{1}{N} \sum_{i = 1}^{N} (y_i - \hat{y_i})^2}
 $$
+
+where,
+- N is the total number of observations
