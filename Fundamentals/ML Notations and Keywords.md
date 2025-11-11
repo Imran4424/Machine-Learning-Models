@@ -204,3 +204,6 @@ Prediction Residual Sum of Squares (PRESS) is a cross-validation technique used 
 
 A lower PRESS value indicates a better fit, with a perfect fit having a PRESS of zero. 
 
+$$
+\boldsymbol{PRESS = \sum_{i = 1}^{N} (y_i - \hat{y}_{i(-i)})^2}
+$$
