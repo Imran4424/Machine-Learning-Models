@@ -1,6 +1,6 @@
 # Question 2
 
-# What the question wants
+## What the question wants
 
 You have a linear model with noisy data. It asks you to:
 
@@ -12,9 +12,9 @@ You have a linear model with noisy data. It asks you to:
 
 ---
 
-# The answer explained plainly
+## The answer explained plainly
 
-## 1) What ridge is (and the formula you use)
+### 1) What ridge is (and the formula you use)
 
 - Ordinary least squares can overfit when features are collinear or noisy.
 - **Ridge** puts a small penalty on big coefficients to stabilize the fit.
@@ -37,9 +37,9 @@ $$
 
 ---
 
-## 2) Predictions for a new point $x$
+### 2) Predictions for a new point $x$
 
-### 2a) Mean (average) of the prediction
+#### 2a) Mean (average) of the prediction
 
 Your predictor is $\hat y(x)=x^\top\hat\theta_\lambda$. Because $\hat\theta_\lambda$ is a **linear** function of $y$, its average over many noisy datasets is easy to compute:
 
@@ -56,7 +56,7 @@ Interpretation:
 - As $\lambda$ grows, $B_\lambda$ pulls the mean prediction **toward 0** (more bias).
 
 
-### 2b) Variance (how wiggly the prediction is)
+#### 2b) Variance (how wiggly the prediction is)
 How much would $\hat y(x)$ change if you re-collected the same $X$ with new noise in $y$? 
 
 That’s the variance:
@@ -71,7 +71,7 @@ Interpretation:
 - As $\lambda$ increases, the middle matrix is **squeezed**, so the variance **drops**.  
 - This is the payoff of ridge: less wiggly predictions (lower variance).
 
-### 2c) Expected squared error at $x$
+#### 2c) Expected squared error at $x$
 
 Now include the **label noise** of the new point itself, say $y = x^T \theta^\star + \tilde{\varepsilon}$ with $\tilde{\varepsilon} \sim \mathcal{N}(0,\zeta^2)$ (this is noise you can’t remove).
 
@@ -111,3 +111,234 @@ $$
 E\left[(y-\hat y(x))^2\right]=(\lambda,x^T(X^T X+\lambda I)^{-1}\theta^\star)^2+\sigma^2,x^T(X^T X+\lambda I)^{-1}X^T X(X^T X+\lambda I)^{-1}x+\zeta^2
 $$
 
+# Question 3
+
+## 1. What is Question 3 really asking?
+
+The question states:
+
+> Let  
+> $\hat\theta_\lambda = (X^\top X + \lambda I)^{-1} X^\top y$.  
+> Show that $\|\hat\theta_\lambda\|_2$ is non-increasing in $\lambda$.
+
+Translated:
+
+- $\hat\theta_\lambda$ is the **ridge regression** solution with regularization strength $\lambda \ge 0$.
+- $\|\cdot\|_2$ is the usual Euclidean norm.
+- “Non-increasing in $\lambda$” means: if $\lambda_1 < \lambda_2$, then  
+  $\|\hat\theta_{\lambda_2}\|_2 \le \|\hat\theta_{\lambda_1}\|_2$.
+
+So the question is:
+
+> As we increase the ridge penalty $\lambda$, can the size (length) of the parameter vector $\hat\theta_\lambda$ ever go up?
+
+The expected answer: **No**. Ridge regression penalizes large coefficients, and mathematically you can show that as you increase $\lambda$, the norm of the solution vector cannot increase; it either stays the same or decreases.
+
+A very simple 1D intuition:
+
+- Suppose $X$ is just one column (scalar feature) with value vector $x$, so  
+  $X^\top X = \|x\|^2$ is a scalar.
+- Then
+  $$
+  \hat\theta_\lambda = \frac{x^\top y}{\|x\|^2 + \lambda}.
+  $$
+- As $\lambda$ increases, the denominator $\|x\|^2+\lambda$ grows, so the magnitude $|\hat\theta_\lambda|$ decreases.
+- In higher-dimensions, the same kind of effect happens in a more complicated matrix way.
+
+The assignment wants you to show this **formally** for the general case.
+
+---
+
+## 2. Strategy of the official solution
+
+The solution does this:
+
+1. Look at the squared norm  
+   $f(\lambda) = \|\hat\theta_\lambda\|_2^2$.
+2. Express $f(\lambda)$ in a form where $\lambda$ appears in a simple scalar way.
+3. Differentiate $f(\lambda)$ with respect to $\lambda$.
+4. Show the derivative is always $\le 0$, hence $f(\lambda)$ is non-increasing, hence $\|\hat\theta_\lambda\|_2$ is non-increasing.
+
+Why squared norm? Because $\|\hat\theta_\lambda\|_2^2$ is easier to differentiate and monotonicity is preserved:
+- If $f(\lambda)$ is non-increasing and nonnegative, then $\sqrt{f(\lambda)}$ is also non-increasing.
+
+---
+
+## 3. Step-by-step through the solution
+
+### 3.1 Define the function $f(\lambda)$
+
+They define:
+$$
+f(\lambda) = \|\hat\theta_\lambda\|_2^2 = \hat\theta_\lambda^\top \hat\theta_\lambda.
+$$
+
+We know:
+$$
+\hat\theta_\lambda = (X^\top X + \lambda I)^{-1} X^\top y.
+$$
+
+Substitute that in:
+$$
+f(\lambda)
+= \left[(X^\top X + \lambda I)^{-1} X^\top y\right]^\top
+  \left[(X^\top X + \lambda I)^{-1} X^\top y\right].
+$$
+
+Now simplify this expression.
+
+---
+
+### 3.2 Use symmetry of $(X^\top X + \lambda I)$
+
+The matrix $X^\top X$ is symmetric, and so is $X^\top X + \lambda I$. The inverse of a symmetric matrix is also symmetric.
+
+So
+$$
+\left( (X^\top X + \lambda I)^{-1} \right)^\top
+= (X^\top X + \lambda I)^{-1}.
+$$
+
+Then:
+$$
+\begin{aligned}
+f(\lambda)
+&= y^\top X (X^\top X + \lambda I)^{-1}
+   (X^\top X + \lambda I)^{-1} X^\top y \\
+&= y^\top X (X^\top X + \lambda I)^{-2} X^\top y.
+\end{aligned}
+$$
+
+So we have:
+$$
+f(\lambda) = y^\top X (X^\top X + \lambda I)^{-2} X^\top y.
+$$
+
+This is already a nice expression, but still matrix-heavy. Next step: diagonalize $X^\top X$.
+
+---
+
+### 3.3 Spectral decomposition (eigendecomposition) of $X^\top X$
+
+Because $X^\top X$ is symmetric and positive semidefinite, we can write:
+$$
+X^\top X = V \Lambda V^\top,
+$$
+where:
+
+- $V$ is an orthogonal matrix ($V^\top V = VV^\top = I$).
+- $\Lambda = \mathrm{diag}(\mu_1, \dots, \mu_d)$ is a diagonal matrix of eigenvalues $\mu_i \ge 0$.
+
+Now:
+$$
+\begin{aligned}
+X^\top X + \lambda I 
+&= V \Lambda V^\top + \lambda I \\
+&= V \Lambda V^\top + \lambda V V^\top \\
+&= V (\Lambda + \lambda I) V^\top.
+\end{aligned}
+$$
+
+So
+$$
+(X^\top X + \lambda I)^{-2}
+= \big[ V(\Lambda + \lambda I)V^\top \big]^{-2}
+= V (\Lambda + \lambda I)^{-2} V^\top.
+$$
+
+Why? Because:
+
+- $(VAV^\top)^{-1} = V A^{-1} V^\top$ for orthogonal $V$,
+- and squaring the inverse simply squares the diagonal entries.
+
+Now plug this back into $f(\lambda)$:
+$$
+f(\lambda)
+= y^\top X \, V (\Lambda + \lambda I)^{-2} V^\top X^\top y.
+$$
+
+---
+
+### 3.4 Rewrite using a new vector $z$
+
+Define:
+$$
+z = V^\top X^\top y.
+$$
+
+Since $V$ is orthogonal, $z$ is just a rotated version of $X^\top y$. Then:
+$$
+f(\lambda)
+= z^\top (\Lambda + \lambda I)^{-2} z.
+$$
+
+Because $(\Lambda + \lambda I)^{-2}$ is diagonal with entries $\frac{1}{(\mu_i + \lambda)^2}$, we can write:
+$$
+f(\lambda)
+= \sum_{i=1}^d \frac{z_i^2}{(\mu_i + \lambda)^2}.
+$$
+
+This is now a **scalar sum over coordinates**, which is perfect for differentiation.
+
+---
+
+### 3.5 Differentiate $f(\lambda)$ with respect to $\lambda$
+
+We have:
+$$
+f(\lambda) = \sum_{i=1}^d z_i^2 (\mu_i + \lambda)^{-2}.
+$$
+
+Differentiate term-by-term:
+$$
+\frac{d}{d\lambda} f(\lambda)
+= \sum_{i=1}^d z_i^2 \cdot \frac{d}{d\lambda} (\mu_i + \lambda)^{-2}.
+$$
+
+But:
+$$
+\frac{d}{d\lambda} (\mu_i + \lambda)^{-2}
+= -2 (\mu_i + \lambda)^{-3}.
+$$
+
+So:
+$$
+\begin{aligned}
+f'(\lambda)
+&= \sum_{i=1}^d z_i^2 \cdot \big(-2 (\mu_i + \lambda)^{-3}\big) \\
+&= -2 \sum_{i=1}^d \frac{z_i^2}{(\mu_i + \lambda)^3}.
+\end{aligned}
+$$
+
+Now look at the sign:
+
+- $z_i^2 \ge 0$ for all $i$.
+- $\mu_i \ge 0$ as eigenvalues of $X^\top X$.
+- $\lambda > 0$ by ridge definition.
+- So $(\mu_i + \lambda)^3 > 0$ for all $i$.
+
+Therefore each term $\frac{z_i^2}{(\mu_i + \lambda)^3} \ge 0$, and hence:
+$$
+f'(\lambda) = -2 \sum_{i=1}^d \frac{z_i^2}{(\mu_i + \lambda)^3} \le 0.
+$$
+
+So the derivative is **non-positive for all $\lambda>0$**.
+
+This implies:
+
+- $f(\lambda) = \|\hat\theta_\lambda\|_2^2$ is a **non-increasing** function of $\lambda$.
+- Therefore the norm $\|\hat\theta_\lambda\|_2 = \sqrt{f(\lambda)}$ is also non-increasing in $\lambda$.
+
+That’s exactly what the question asked you to show.
+
+---
+
+## 4. Intuition recap
+
+Conceptually, ridge regression solves:
+$$
+\hat\theta_\lambda = \arg\min_\theta \left( \|y - X\theta\|_2^2 + \lambda \|\theta\|_2^2 \right).
+$$
+
+- Increasing $\lambda$ means you **care more about keeping $\theta$ small** (stronger penalty).
+- The linear algebra proof above formalizes that as $\lambda$ grows, the parameter vector cannot get larger in length; it either stays the same or shrinks.
