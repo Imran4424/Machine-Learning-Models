@@ -342,3 +342,5 @@ $$
 
 - Increasing $\lambda$ means you **care more about keeping $\theta$ small** (stronger penalty).
 - The linear algebra proof above formalizes that as $\lambda$ grows, the parameter vector cannot get larger in length; it either stays the same or shrinks.
+
+
