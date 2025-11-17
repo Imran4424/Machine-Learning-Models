@@ -380,12 +380,14 @@ $$
 
 The question says (paraphrased):
 
-> Show that ridge regression admits the dual representation  
+> Show that ridge regression admits the dual representation
+>
 > $$
 > \hat y_\lambda 
 > = X (X^\top X + \lambda I_d)^{-1} X^\top y
 > = K (K + \lambda I_n)^{-1} y,\quad K := XX^\top,
 > $$
+> 
 > where $I_d$ and $I_n$ are identity matrices of size $d \times d$ and $n \times n$.
 
 Key objects:
