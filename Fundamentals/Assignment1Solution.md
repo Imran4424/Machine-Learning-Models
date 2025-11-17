@@ -179,16 +179,19 @@ Why squared norm? Because $\|\hat\theta_\lambda\|_2^2$ is easier to differentiat
 ### 3.1 Define the function $f(\lambda)$
 
 They define:
+
 $$
 f(\lambda) = \|\hat\theta_\lambda\|_2^2 = \hat\theta_\lambda^\top \hat\theta_\lambda.
 $$
 
 We know:
+
 $$
 \hat\theta_\lambda = (X^\top X + \lambda I)^{-1} X^\top y.
 $$
 
 Substitute that in:
+
 $$
 f(\lambda)
 = \left[(X^\top X + \lambda I)^{-1} X^\top y\right]^\top
@@ -204,12 +207,14 @@ Now simplify this expression.
 The matrix $X^\top X$ is symmetric, and so is $X^\top X + \lambda I$. The inverse of a symmetric matrix is also symmetric.
 
 So
+
 $$
 \left( (X^\top X + \lambda I)^{-1} \right)^\top
 = (X^\top X + \lambda I)^{-1}.
 $$
 
 Then:
+
 $$
 \begin{aligned}
 f(\lambda)
@@ -220,6 +225,7 @@ f(\lambda)
 $$
 
 So we have:
+
 $$
 f(\lambda) = y^\top X (X^\top X + \lambda I)^{-2} X^\top y.
 $$
@@ -231,15 +237,18 @@ This is already a nice expression, but still matrix-heavy. Next step: diagonaliz
 ### 3.3 Spectral decomposition (eigendecomposition) of $X^\top X$
 
 Because $X^\top X$ is symmetric and positive semidefinite, we can write:
+
 $$
 X^\top X = V \Lambda V^\top,
 $$
+
 where:
 
 - $V$ is an orthogonal matrix ($V^\top V = VV^\top = I$).
 - $\Lambda = \mathrm{diag}(\mu_1, \dots, \mu_d)$ is a diagonal matrix of eigenvalues $\mu_i \ge 0$.
 
 Now:
+
 $$
 \begin{aligned}
 X^\top X + \lambda I 
@@ -249,7 +258,8 @@ X^\top X + \lambda I
 \end{aligned}
 $$
 
-So
+So,
+
 $$
 (X^\top X + \lambda I)^{-2}
 = \big[ V(\Lambda + \lambda I)V^\top \big]^{-2}
@@ -262,6 +272,7 @@ Why? Because:
 - and squaring the inverse simply squares the diagonal entries.
 
 Now plug this back into $f(\lambda)$:
+
 $$
 f(\lambda)
 = y^\top X \, V (\Lambda + \lambda I)^{-2} V^\top X^\top y.
@@ -272,17 +283,20 @@ $$
 ### 3.4 Rewrite using a new vector $z$
 
 Define:
+
 $$
 z = V^\top X^\top y.
 $$
 
 Since $V$ is orthogonal, $z$ is just a rotated version of $X^\top y$. Then:
+
 $$
 f(\lambda)
 = z^\top (\Lambda + \lambda I)^{-2} z.
 $$
 
 Because $(\Lambda + \lambda I)^{-2}$ is diagonal with entries $\frac{1}{(\mu_i + \lambda)^2}$, we can write:
+
 $$
 f(\lambda)
 = \sum_{i=1}^d \frac{z_i^2}{(\mu_i + \lambda)^2}.
