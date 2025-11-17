@@ -128,7 +128,7 @@ Translated:
 
 - $\hat\theta_\lambda$ is the **ridge regression** solution with regularization strength $\lambda \ge 0$.
 - $\|\cdot\|_2$ is the usual Euclidean norm.
-- “Non-increasing in $\lambda$” means: if $\lambda_1 < \lambda_2$, then  
+- “Non-increasing in $\lambda$” means: if $\lambda_1 < \lambda_2$, then 
   $\|\hat\theta_{\lambda_2}\|_2 \le \|\hat\theta_{\lambda_1}\|_2$.
 
 So the question is:
