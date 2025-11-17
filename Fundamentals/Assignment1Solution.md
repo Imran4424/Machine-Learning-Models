@@ -73,7 +73,7 @@ Interpretation:
 
 #### 2c) Expected squared error at $x$
 
-Now include the **label noise** of the new point itself, say $y = x^T \theta^\star + \tilde{\varepsilon}$
+Now include the **label noise** of the new point itself, say $y = x^T \theta^\star$
 
 Now include the **label noise** of the new point itself, say $y = x^T \theta^\star + \tilde{\varepsilon}$ with $\tilde{\varepsilon} \sim \mathcal{N}(0,\zeta^2)$ (this is noise you can’t remove).
 
