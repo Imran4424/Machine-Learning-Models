@@ -315,6 +315,7 @@ f(\lambda) = \sum_{i=1}^d z_i^2 (\mu_i + \lambda)^{-2}.
 $$
 
 Differentiate term-by-term:
+
 $$
 \frac{d}{d\lambda} f(\lambda)
 = \sum_{i=1}^d z_i^2 \cdot \frac{d}{d\lambda} (\mu_i + \lambda)^{-2}.
