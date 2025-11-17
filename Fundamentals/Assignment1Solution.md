@@ -346,6 +346,7 @@ Now look at the sign:
 - So $(\mu_i + \lambda)^3 > 0$ for all $i$.
 
 Therefore each term $\frac{z_i^2}{(\mu_i + \lambda)^3} \ge 0$, and hence:
+
 $$
 f'(\lambda) = -2 \sum_{i=1}^d \frac{z_i^2}{(\mu_i + \lambda)^3} \le 0.
 $$
