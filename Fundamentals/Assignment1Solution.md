@@ -97,10 +97,12 @@ x^T\theta^\star - x^T B_\lambda \theta^\star
 = \lambda\, x^T (X^T X + \lambda I)^{-1}\theta^\star.
 $$
 
-  So, Bias$^2$:
-  $$
-  \big(\lambda\, x^T (X^T X + \lambda I)^{-1}\theta^\star\big)^2
-  $$
+
+So, $\text{Bias}^2$:
+
+$$
+\big(\lambda\, x^T (X^T X + \lambda I)^{-1}\theta^\star\big)^2
+$$
 
 - **Variance at $x$** is exactly the variance from 2b.
 
