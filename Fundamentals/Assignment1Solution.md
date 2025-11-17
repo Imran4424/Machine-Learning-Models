@@ -534,7 +534,9 @@ $$
 Z (K + \lambda I_n) = X X^\top.
 $$
 
-$$Z (K + \lambda I_n) = K.$$
+$$
+Z (K + \lambda I_n) = K.
+$$
 
 The two terms with $\lambda$ cancel exactly.
 
