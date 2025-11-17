@@ -142,14 +142,18 @@ The expected answer: **No**. Ridge regression penalizes large coefficients, and 
 
 A very simple 1D intuition:
 
-- Suppose $X$ is just one column (scalar feature) with value vector $x$, so  
-  $X^\top X = \|x\|^2$ is a scalar.
-- Then
-  $$
-  \hat\theta_\lambda = \frac{x^\top y}{\|x\|^2 + \lambda}.
-  $$
-- As $\lambda$ increases, the denominator $\|x\|^2+\lambda$ grows, so the magnitude $|\hat\theta_\lambda|$ decreases.
-- In higher-dimensions, the same kind of effect happens in a more complicated matrix way.
+Suppose $X$ is just one column (scalar feature) with value vector $x$, 
+so, $X^\top X = \|x\|^2$ is a scalar.
+
+Then
+
+$$
+\hat\theta_\lambda = \frac{x^\top y}{\|x\|^2 + \lambda}.
+$$
+
+As $\lambda$ increases, the denominator $\|x\|^2+\lambda$ grows, so the magnitude $|\hat\theta_\lambda|$ decreases.
+
+In higher-dimensions, the same kind of effect happens in a more complicated matrix way.
 
 The assignment wants you to show this **formally** for the general case.
 
