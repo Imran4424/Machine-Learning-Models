@@ -322,6 +322,7 @@ $$
 $$
 
 But:
+
 $$
 \frac{d}{d\lambda} (\mu_i + \lambda)^{-2}
 = -2 (\mu_i + \lambda)^{-3}.
