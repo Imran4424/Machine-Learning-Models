@@ -91,11 +91,11 @@ Compute each piece:
 
 - **Bias at $x$** = $x^T\theta^\star - E[\hat y(x)]$  
 
-  $$
-  x^T\theta^\star - x^T B_\lambda \theta^\star
-  = x^T(I - B_\lambda)\theta^\star
-  = \lambda\, x^T (X^T X + \lambda I)^{-1}\theta^\star.
-  $$
+$$
+x^T\theta^\star - x^T B_\lambda \theta^\star
+= x^T(I - B_\lambda)\theta^\star
+= \lambda\, x^T (X^T X + \lambda I)^{-1}\theta^\star.
+$$
 
   So, Bias$^2$:
   $$
