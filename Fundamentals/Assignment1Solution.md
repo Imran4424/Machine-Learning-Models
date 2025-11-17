@@ -395,10 +395,13 @@ Key objects:
 - $X \in \mathbb{R}^{n \times d}$: rows are feature vectors $x_i^\top$.
 - $y \in \mathbb{R}^n$: labels.
 - Ridge regression solution:
+
   $$
   \hat\theta_\lambda = (X^\top X + \lambda I_d)^{-1} X^\top y.
   $$
+
 - Prediction on the training points:
+  
   $$
   \hat y_\lambda = X \hat\theta_\lambda.
   $$
