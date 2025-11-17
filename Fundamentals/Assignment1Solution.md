@@ -19,6 +19,7 @@ $$
 The $i$-th diagonal $h_{ii}$ measures how much point $i$ influences its own fitted value. This number $h_{ii}$ is called the leverage:
 
 - If $h_{ii}$ is small → point is typical, doesn't pull the fit much.
+- If $h_{ii}$ is big → point is special, it influences the fit a lot.
 
 The residual at point i is, $\boldsymbol{r_i = y_i - \hat{y_i}}$. Now:
 
