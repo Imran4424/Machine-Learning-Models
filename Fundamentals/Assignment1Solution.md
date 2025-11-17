@@ -309,6 +309,7 @@ This is now a **scalar sum over coordinates**, which is perfect for differentiat
 ### 3.5 Differentiate $f(\lambda)$ with respect to $\lambda$
 
 We have:
+
 $$
 f(\lambda) = \sum_{i=1}^d z_i^2 (\mu_i + \lambda)^{-2}.
 $$
