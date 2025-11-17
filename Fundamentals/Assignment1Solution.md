@@ -526,7 +526,9 @@ $$
 Z (K + \lambda I_n) = X \big( I_d - \lambda (X^\top X + \lambda I_d)^{-1} \big) X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
 $$
 
-$$Z (K + \lambda I_n) = X X^\top - \lambda X (X^\top X + \lambda I_d)^{-1} X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.$$
+$$
+Z (K + \lambda I_n) = X X^\top - \lambda X (X^\top X + \lambda I_d)^{-1} X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
+$$
 
 $$Z (K + \lambda I_n) = X X^\top.$$
 
