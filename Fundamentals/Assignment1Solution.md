@@ -2,6 +2,8 @@
 
 ## What the question is asking
 
+### Part 1
+
 You fit an Ordinary Least Squares (OLS) regression:
 
 $$
@@ -14,7 +16,9 @@ $$
 \boldsymbol{H = X (X^T X)^{-1} X^T}
 $$
 
-The $i$-th diagonal $h_{ii}$ measures how much point $i$ influences its own fitted value. 
+The $i$-th diagonal $h_{ii}$ measures how much point $i$ influences its own fitted value. This number $h_{ii}$ is called the leverage:
+
+- If $h_{ii}$ is small → point is typical, doesn't pull the fit much.
 
 The residual at point i is, $\boldsymbol{r_i = y_i - \hat{y_i}}$. Now:
 
@@ -34,6 +38,10 @@ $$
 $$
 
 A hint is given to use the Sherman–Morrison formula (a shortcut for inverting a rank-1 update of a matrix).
+
+### Part 2
+
+
 
 # Question 2
 
