@@ -40,6 +40,24 @@ $$
 
 A hint is given to use the Sherman–Morrison formula (a shortcut for inverting a rank-1 update of a matrix).
 
+#### What the question is really asking
+
+Imagine doing leave-one-out:
+
+For each point $i$:
+
+1. Remove point i from the dataset.
+2. Re-fit regression on the remaining $n - 1$ points
+3. Use that new model to predict the label at $x_i$, call that $\boldsymbol{\hat{y_i}^{(-i)}}$
+
+The question wants you to show that you don’t need to re-fit the model **n** times.
+
+Instead, you can get all those leave-one-out predictions using just:
+
+- The normal residual $r_i$
+- The leverage $h_{ii}$
+
+
 ### Part 2
 
 
