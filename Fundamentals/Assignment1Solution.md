@@ -45,7 +45,7 @@ So this formula says:
 and 
 
 $$
-\boldsymbol{ \bold{LOO-SE} = \frac{1}{n} \sum_{i = 1}^{n} {(\frac{r_i}{1 - h_{ii}})}^2}
+\boldsymbol{LOO-SE = \frac{1}{n} \sum_{i = 1}^{n} {(\frac{r_i}{1 - h_{ii}})}^2}
 $$
 
 A hint is given to use the Sherman–Morrison formula (a shortcut for inverting a rank-1 update of a matrix).
