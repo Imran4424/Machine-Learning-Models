@@ -23,8 +23,17 @@ The residual at point i is, $\boldsymbol{r_i = y_i - \hat{y_i}}$. Now:
 
 The target results to prove are:
 
+$$
+\boldsymbol{\hat{y_i}^{(-i)} = y_i - \frac{r_i}{1 - h_{ii}}}
+$$
 
+and 
 
+$$
+\boldsymbol{ \bold{LOO-SE} = \frac{1}{n} \sum_{i = 1}^{n} {(\frac{r_i}{1 - h_{ii}})}^2}
+$$
+
+A hint is given to use the Sherman–Morrison formula (a shortcut for inverting a rank-1 update of a matrix).
 
 # Question 2
 
