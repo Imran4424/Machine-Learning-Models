@@ -32,6 +32,11 @@ $$
 \boldsymbol{\hat{y_i}^{(-i)} = y_i - \frac{r_i}{1 - h_{ii}}}
 $$
 
+where,
+
+- $y_i$ = actual label
+- $\boldsymbol{r_i = y_i - \hat{y_i}}$ = how wrong the original model was at this point.
+
 and 
 
 $$
@@ -57,6 +62,10 @@ Instead, you can get all those leave-one-out predictions using just:
 - The normal residual $r_i$
 - The leverage $h_{ii}$
 
+
+So the whole point:
+
+“How can I compute leave-one-out error fast, using one fit + simple formulas, instead of refitting the model **n times**?”
 
 ### Part 2
 
