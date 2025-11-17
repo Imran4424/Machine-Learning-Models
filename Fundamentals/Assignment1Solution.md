@@ -530,7 +530,9 @@ $$
 Z (K + \lambda I_n) = X X^\top - \lambda X (X^\top X + \lambda I_d)^{-1} X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
 $$
 
-$$Z (K + \lambda I_n) = X X^\top.$$
+$$
+Z (K + \lambda I_n) = X X^\top.
+$$
 
 $$Z (K + \lambda I_n) = K.$$
 
