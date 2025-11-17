@@ -74,7 +74,9 @@ So the whole point:
 
 ### Part 2
 
-You have three points $(0, 1), (1,2), (2, 2)$
+You have three points in the Dataset =  $(0, 1), (1,2), (2, 2)$
+
+We need to calculate $h_{ii}$, $r_i$ and $\boldsymbol{\hat{y_i}^{(-i)}}$ using the LOO formula. 
 
 # Question 2
 
