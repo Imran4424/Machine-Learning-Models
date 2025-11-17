@@ -1,5 +1,19 @@
 # Question 1
 
+## What the question is asking
+
+You fit an Ordinary Least Squares (OLS) regression:
+
+$$
+\boldsymbol{\hat{y} = Hy}
+$$
+
+where,
+
+$$
+\boldsymbol{H = X (X^T X)^{-1} X^T}
+$$
+
 # Question 2
 
 ## What the question wants
