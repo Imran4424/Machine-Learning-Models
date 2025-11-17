@@ -38,6 +38,10 @@ where,
 - $\boldsymbol{r_i = y_i - \hat{y_i}}$ = how wrong the original model was at this point.
 - $h_{ii}$ = leverage/influence of point $i$.
 
+So this formula says:
+
+`Take the original error` $r_i$. `Blow it up by the factor` $\frac{1}{1 - h_{ii}}$. `Subtract that from the true value` $y_i$. `That gives you the prediction you would have gotten if you had left point` $i$ `out.` 
+
 and 
 
 $$
