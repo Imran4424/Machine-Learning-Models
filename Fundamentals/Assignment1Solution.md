@@ -396,15 +396,15 @@ Key objects:
 - $y \in \mathbb{R}^n$: labels.
 - Ridge regression solution:
 
-  $$
-  \hat\theta_\lambda = (X^\top X + \lambda I_d)^{-1} X^\top y.
-  $$
+$$
+\hat\theta_\lambda = (X^\top X + \lambda I_d)^{-1} X^\top y.
+$$
 
 - Prediction on the training points:
-  
-  $$
-  \hat y_\lambda = X \hat\theta_\lambda.
-  $$
+
+$$
+\hat y_\lambda = X \hat\theta_\lambda.
+$$
 
 The question wants you to show:
 
