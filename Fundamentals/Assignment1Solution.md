@@ -480,15 +480,21 @@ $$
 
 Use $K = XX^\top$:
 
-$$Z (K + \lambda I_n) = X (X^\top X + \lambda I_d)^{-1} X^\top K + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.$$
+$$
+Z (K + \lambda I_n) = X (X^\top X + \lambda I_d)^{-1} X^\top K + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
+$$
 
 Now, $X^\top K = X^\top (XX^\top) = X^\top X X^\top$. So
 
-$$Z (K + \lambda I_n) = X (X^\top X + \lambda I_d)^{-1} (X^\top X X^\top) + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.$$
+$$
+Z (K + \lambda I_n) = X (X^\top X + \lambda I_d)^{-1} (X^\top X X^\top) + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
+$$
 
 Factor out $X$ and $X^\top$:
 
-$$Z (K + \lambda I_n) = X \big[(X^\top X + \lambda I_d)^{-1} X^\top X\big] X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.$$
+$$
+Z (K + \lambda I_n) = X \big[(X^\top X + \lambda I_d)^{-1} X^\top X\big] X^\top + \lambda X (X^\top X + \lambda I_d)^{-1} X^\top.
+$$
 
 
 ### 3.2 Use a key matrix identity
