@@ -36,6 +36,7 @@ where,
 
 - $y_i$ = actual label
 - $\boldsymbol{r_i = y_i - \hat{y_i}}$ = how wrong the original model was at this point.
+- $h_{ii}$ = leverage/influence of point $i$.
 
 and 
 
