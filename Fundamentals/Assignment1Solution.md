@@ -364,6 +364,7 @@ That’s exactly what the question asked you to show.
 ## 4. Intuition recap
 
 Conceptually, ridge regression solves:
+
 $$
 \hat\theta_\lambda = \arg\min_\theta \left( \|y - X\theta\|_2^2 + \lambda \|\theta\|_2^2 \right).
 $$
