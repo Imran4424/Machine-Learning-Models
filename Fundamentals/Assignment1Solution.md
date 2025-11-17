@@ -75,7 +75,6 @@ Interpretation:
 
 Now include the **label noise** of the new point itself, say $y = x^T \theta^\star$ + $\tilde{\varepsilon}$ with $\tilde{\varepsilon}$ $\sim \mathcal{N}(0,\zeta^2)$ (this is noise you can’t remove).
 
-Now include the **label noise** of the new point itself, say $y = x^T \theta^\star + \tilde{\varepsilon}$ with $\tilde{\varepsilon} \sim \mathcal{N}(0,\zeta^2)$ (this is noise you can’t remove).
 
 The classic decomposition is:
 
@@ -83,7 +82,7 @@ $$
 E\big[(y-\hat y(x))^2\big] = \text{Bias}^2 + \text{Variance} + \zeta^2
 $$
 
-Bias$^2$ = systematic offset  
+$\text{Bias}^2$ = systematic offset  
 Variance = fit wobble  
 $\zeta^2$ = unavoidable
 
