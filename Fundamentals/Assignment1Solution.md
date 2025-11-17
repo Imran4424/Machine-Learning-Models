@@ -8,11 +8,21 @@ $$
 \boldsymbol{\hat{y} = Hy}
 $$
 
-where,
+where, H is the hat matrix.
 
 $$
 \boldsymbol{H = X (X^T X)^{-1} X^T}
 $$
+
+The $i$-th diagonal $h_{ii}$ measures how much point $i$ influences its own fitted value. 
+
+The residual at point i is, $\boldsymbol{r_i = y_i - \hat{y_i}}$. Now:
+
+1. If you remove the $i$-th data point, refit OLS on the remaining $n - 1$ points, and then predict $y_i$ with that refit, what number do you get?
+2. Use that to write the **leave-one-out(LOO) squared error** without having to refit $n$ separate models.
+
+
+
 
 # Question 2
 
