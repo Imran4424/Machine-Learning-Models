@@ -62,7 +62,7 @@ How much would $\hat y(x)$ change if you re-collected the same $X$ with new nois
 That’s the variance:
 
 $$
-\operatorname{Var}(\hat{y}(x)) = \sigma^2\, x^\top (X^\top X + \lambda I)^{-1} X^\top X (X^\top X + \lambda I)^{-1} x
+{Var}(\hat{y}(x)) = \sigma^2\, x^\top (X^\top X + \lambda I)^{-1} X^\top X (X^\top X + \lambda I)^{-1} x
 $$
 
 
