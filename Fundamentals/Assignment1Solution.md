@@ -74,7 +74,7 @@ So the whole point:
 
 ### Part 2
 
-
+You have three points $(0, 1), (1,2), (2, 2)$
 
 # Question 2
 
