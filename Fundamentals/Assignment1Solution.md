@@ -76,7 +76,7 @@ So the whole point:
 
 You have three points in the Dataset =  $(0, 1), (1,2), (2, 2)$
 
-We need to calculate $h_{ii}$, $r_i$ and $\boldsymbol{\hat{y_i}^{(-i)}}$ using the LOO formula. 
+We need to calculate $h_{ii}$, $r_i$ and $\boldsymbol{\hat{y_i}^{(-i)}}$ using the Leave one out(LOO) formula. 
 
 # Question 2
 
